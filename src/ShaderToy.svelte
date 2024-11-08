@@ -40,6 +40,17 @@
     mouseDown = false;
   }
 
+  // Handle window resize
+  function handleResize() {
+    iResolution.x = window.innerWidth;
+    iResolution.y = window.innerHeight;
+    canvas.width = iResolution.x;
+    canvas.height = iResolution.y;
+    if (gl) {
+      gl.viewport(0, 0, gl.drawingBufferWidth, gl.drawingBufferHeight);
+    }
+  }
+
   // Load texture for iChannel uniforms
   function loadTexture(gl, url, unit) {
     const texture = gl.createTexture();
@@ -89,32 +100,32 @@
 
     // Vertex shader source
     const vertexShaderSource = `
-        attribute vec2 position;
-        void main() {
-          gl_Position = vec4(position, 0.0, 1.0);
-        }
-      `;
+      attribute vec2 position;
+      void main() {
+        gl_Position = vec4(position, 0.0, 1.0);
+      }
+    `;
 
     // Fragment shader source with user-provided shader code
     const fragmentShaderSource = `
-        precision mediump float;
-        uniform vec3 iResolution;
-        uniform float iTime;
-        uniform vec4 iMouse;
-        uniform sampler2D iChannel0;
-        uniform sampler2D iChannel1;
-        uniform sampler2D iChannel2;
-        uniform sampler2D iChannel3;
-  
-        // User-provided shader code
-        ${shader}
-  
-        void main() {
-          vec4 color = vec4(0.0);
-          mainImage(color, gl_FragCoord.xy);
-          gl_FragColor = color;
-        }
-      `;
+      precision mediump float;
+      uniform vec3 iResolution;
+      uniform float iTime;
+      uniform vec4 iMouse;
+      uniform sampler2D iChannel0;
+      uniform sampler2D iChannel1;
+      uniform sampler2D iChannel2;
+      uniform sampler2D iChannel3;
+
+      // User-provided shader code
+      ${shader}
+
+      void main() {
+        vec4 color = vec4(0.0);
+        mainImage(color, gl_FragCoord.xy);
+        gl_FragColor = color;
+      }
+    `;
 
     // Compile shaders
     function compileShader(type, source) {
@@ -152,7 +163,9 @@
     gl.linkProgram(program);
 
     if (!gl.getProgramParameter(program, gl.LINK_STATUS)) {
-      console.error("Program failed to link: " + gl.getProgramInfoLog(program));
+      console.error(
+        "Program failed to link: " + gl.getProgramInfoLog(program)
+      );
       gl.deleteProgram(program);
       return;
     }
@@ -164,7 +177,8 @@
     const positionBuffer = gl.createBuffer();
     gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
     const positions = new Float32Array([
-      -1, -1, 1, -1, -1, 1, -1, 1, 1, -1, 1, 1,
+      -1, -1, 1, -1, -1, 1,
+      -1, 1, 1, -1, 1, 1,
     ]);
     gl.bufferData(gl.ARRAY_BUFFER, positions, gl.STATIC_DRAW);
     gl.enableVertexAttribArray(positionLocation);
@@ -187,6 +201,10 @@
         loadTexture(gl, channel, index);
       }
     });
+
+    // Event listener for window resize
+    window.addEventListener("resize", handleResize);
+    handleResize(); // Set initial size
 
     // Rendering loop
     function render() {
@@ -228,6 +246,7 @@
     canvas.removeEventListener("mousemove", handleMouseMove);
     canvas.removeEventListener("mousedown", handleMouseDown);
     canvas.removeEventListener("mouseup", handleMouseUp);
+    window.removeEventListener("resize", handleResize);
 
     // Clean up WebGL resources if necessary
     if (gl && program) {
@@ -237,8 +256,7 @@
 </script>
 
 <!-- Canvas element where the shader will be rendered -->
-<canvas bind:this={canvas} width={iResolution.x} height={iResolution.y}
-></canvas>
+<canvas bind:this={canvas}></canvas>
 
 <style>
   canvas {
