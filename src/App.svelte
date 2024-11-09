@@ -123,6 +123,9 @@
         <option value={index}>{tipo.tipo}</option>
       {/each}
     </select>
+    <p>
+      {empresaData.tipos[$selectedEmpresaIndex].descripcion}
+    </p>
   </div>
 
   <div class="step-buttons">
@@ -174,6 +177,17 @@
               .subpasos[$currentSubStep].detalle[$currentDetailIndex]}
           </p>
         </div>
+
+        {#if empresaData.tipos[$selectedEmpresaIndex].pasos[$currentStep].subpasos[$currentSubStep].caveats?.length > 0}
+          <div class="caveats">
+            <strong>Caveats:</strong>
+            <ul>
+              {#each empresaData.tipos[$selectedEmpresaIndex].pasos[$currentStep].subpasos[$currentSubStep].caveats as caveat}
+                <li>{caveat}</li>
+              {/each}
+            </ul>
+          </div>
+        {/if}
       </div>
 
       <div class="document-list">
@@ -259,6 +273,13 @@
     margin-left: 2rem;
     font-size: 1rem;
     color: #555;
+    line-height: 1.5;
+  }
+
+  .caveats {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #d9534f;
     line-height: 1.5;
   }
 
