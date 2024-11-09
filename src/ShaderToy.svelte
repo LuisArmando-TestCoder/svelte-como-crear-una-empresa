@@ -71,10 +71,16 @@
     );
 
     const image = new Image();
-    image.crossOrigin = "";
+
+    // Set crossOrigin only if the URL is absolute
+    if (url.startsWith("http://") || url.startsWith("https://")) {
+      image.crossOrigin = "anonymous";
+    }
+
     image.onload = function () {
       gl.activeTexture(gl.TEXTURE0 + unit);
       gl.bindTexture(gl.TEXTURE_2D, texture);
+      gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
       gl.texImage2D(
         gl.TEXTURE_2D,
         0,
@@ -121,7 +127,7 @@
       ${shader}
 
       void main() {
-        vec4 color = vec4(0.0);
+        vec4 color;
         mainImage(color, gl_FragCoord.xy);
         gl_FragColor = color;
       }

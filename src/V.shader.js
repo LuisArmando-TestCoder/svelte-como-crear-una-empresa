@@ -1,10 +1,4 @@
 export default `
-// "Cosmic Cycles" by Martijn Steinrucken aka BigWings/CountFrolic - 2020
-// License Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
-// Email: countfrolic@gmail.com
-// Twitter: @The_ArtOfCode
-// YouTube: youtube.com/TheArtOfCodeIsCool
-
 #define BURST
 #define NUM_LAYERS 2
 #define ITERATIONS 20

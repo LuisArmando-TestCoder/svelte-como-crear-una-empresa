@@ -182,7 +182,7 @@
 </div>
 
 <div class="shader">
-  <ShaderToy shader={VShader} />
+  <ShaderToy shader={VShader} iChannel0={'./t1.jpg'} iChannel1={'./t1.jpg'} />
 </div>
 
 <style>
