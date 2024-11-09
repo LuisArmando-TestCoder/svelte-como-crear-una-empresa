@@ -1,51 +1,37 @@
 <script>
-  import { writable, get } from "svelte/store";
-  import { onMount } from "svelte";
   import empresaData from "./empresaData";
   import ShaderToy from "./ShaderToy.svelte";
   import VShader from "./V.shader";
 
-  let selectedEmpresaIndex = writable(0);
-  let currentStep = writable(0);
-  let currentSubStep = writable(0);
-  let currentDetailIndex = writable(0);
+  // Custom persistent store function
+  import { writable } from "svelte/store";
 
-  // Load from localStorage if available
-  onMount(() => {
-    const savedSelectedEmpresaIndex = localStorage.getItem(
-      "selectedEmpresaIndex"
-    );
-    const savedCurrentStep = localStorage.getItem("currentStep");
-    const savedCurrentSubStep = localStorage.getItem("currentSubStep");
-    const savedCurrentDetailIndex = localStorage.getItem("currentDetailIndex");
+  function persistentWritable(key, initialValue) {
+    const store = writable(initialValue, () => {
+      const json = localStorage.getItem(key);
+      if (json !== null) {
+        store.set(JSON.parse(json));
+      }
+      const unsubscribe = store.subscribe((value) => {
+        localStorage.setItem(key, JSON.stringify(value));
+      });
+      return unsubscribe;
+    });
+    return store;
+  }
 
-    if (savedSelectedEmpresaIndex !== null)
-      selectedEmpresaIndex.set(+savedSelectedEmpresaIndex);
-    if (savedCurrentStep !== null) currentStep.set(+savedCurrentStep);
-    if (savedCurrentSubStep !== null) currentSubStep.set(+savedCurrentSubStep);
-    if (savedCurrentDetailIndex !== null)
-      currentDetailIndex.set(+savedCurrentDetailIndex);
-  });
+  // Initialize persistent stores
+  let selectedEmpresaIndex = persistentWritable("selectedEmpresaIndex", 0);
+  let currentStep = persistentWritable("currentStep", 0);
+  let currentSubStep = persistentWritable("currentSubStep", 0);
+  let currentDetailIndex = persistentWritable("currentDetailIndex", 0);
 
-  // Save to localStorage whenever value changes
-  selectedEmpresaIndex.subscribe((value) => {
-    localStorage.setItem("selectedEmpresaIndex", String(value));
-  });
-  currentStep.subscribe((value) => {
-    localStorage.setItem("currentStep", String(value));
-  });
-  currentSubStep.subscribe((value) => {
-    localStorage.setItem("currentSubStep", String(value));
-  });
-  currentDetailIndex.subscribe((value) => {
-    localStorage.setItem("currentDetailIndex", String(value));
-  });
-
+  // Functions using the stores
   function nextDetail() {
-    const currentDetailIndexValue = get(currentDetailIndex);
-    const currentSubStepValue = get(currentSubStep);
-    const currentStepValue = get(currentStep);
-    const selectedEmpresaIndexValue = get(selectedEmpresaIndex);
+    const currentDetailIndexValue = $currentDetailIndex;
+    const currentSubStepValue = $currentSubStep;
+    const currentStepValue = $currentStep;
+    const selectedEmpresaIndexValue = $selectedEmpresaIndex;
 
     const empresa = empresaData.tipos[selectedEmpresaIndexValue];
     const currentPaso = empresa.pasos[currentStepValue];
@@ -64,44 +50,35 @@
   }
 
   function previousStep() {
-    // Get current values
-    let currentDetailIndexValue = get(currentDetailIndex);
-    let currentSubStepValue = get(currentSubStep);
-    let currentStepValue = get(currentStep);
-    let selectedEmpresaIndexValue = get(selectedEmpresaIndex);
+    let currentDetailIndexValue = $currentDetailIndex;
+    let currentSubStepValue = $currentSubStep;
+    let currentStepValue = $currentStep;
+    let selectedEmpresaIndexValue = $selectedEmpresaIndex;
 
     if (currentDetailIndexValue > 0) {
-      // Decrement detail index if possible
       currentDetailIndex.update((n) => n - 1);
     } else if (currentSubStepValue > 0) {
-      // Decrement sub-step index
       const newSubStepValue = currentSubStepValue - 1;
       currentSubStep.set(newSubStepValue);
 
-      // Access the updated sub-step
       const subpasos =
         empresaData.tipos[selectedEmpresaIndexValue].pasos[currentStepValue]
           .subpasos;
       const detalleLength = subpasos[newSubStepValue].detalle.length;
 
-      // Set detail index to the last item of the new sub-step
       currentDetailIndex.set(detalleLength - 1);
     } else if (currentStepValue > 0) {
-      // Decrement step index
       const newStepValue = currentStepValue - 1;
       currentStep.set(newStepValue);
 
-      // Access the updated step and get the last sub-step
       const pasos = empresaData.tipos[selectedEmpresaIndexValue].pasos;
       const subpasos = pasos[newStepValue].subpasos;
       const newSubStepIndex = subpasos.length - 1;
       currentSubStep.set(newSubStepIndex);
 
-      // Set detail index to the last item of the last sub-step
       const detalleLength = subpasos[newSubStepIndex].detalle.length;
       currentDetailIndex.set(detalleLength - 1);
     }
-    // If none of the above, we're at the very beginning and do nothing
   }
 
   function updateSteps(selectedIndex) {
@@ -120,7 +97,9 @@
       on:change={(e) => updateSteps(e.target.selectedIndex)}
     >
       {#each empresaData.tipos as tipo, index}
-        <option value={index}>{tipo.tipo}</option>
+        <option selected={$selectedEmpresaIndex === index} value={index}
+          >{tipo.tipo}</option
+        >
       {/each}
     </select>
     <p>
