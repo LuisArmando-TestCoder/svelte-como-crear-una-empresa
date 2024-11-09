@@ -3,7 +3,7 @@ export default {
     {
       tipo: "Persona Física",
       descripcion:
-        "Una empresa de tipo persona física es una forma de organización empresarial en la que un individuo, conocido como persona física o trabajador independiente, realiza actividades económicas con fines de lucro sin constituirse formalmente como una sociedad o compañía. En este tipo de empresa, el propietario es la misma persona que opera el negocio, y no existe una entidad separada entre el empresario y la empresa",
+        "Una empresa de tipo persona física es una forma de organización empresarial en la que un individuo, conocido como persona física o trabajador independiente, realiza actividades económicas con fines de lucro sin constituirse formalmente como una sociedad o compañía. En este tipo de empresa, el propietario es la misma persona que opera el negocio, y no existe una entidad separada entre el empresario y la empresa. La persona física es responsable ilimitadamente con sus bienes personales por las obligaciones contraídas en el ejercicio de su actividad económica.",
       pasos: [
         {
           paso: "Definir actividad comercial",
@@ -97,7 +97,7 @@ export default {
               detalle: [
                 "Visite la página oficial del Ministerio de Salud y busque la sección de permisos: use la barra de búsqueda para agilizar la navegación en el sitio web.",
                 "Complete la información requerida, incluyendo la descripción detallada de las instalaciones de la empresa: asegúrese de incluir detalles sobre la infraestructura, medidas de seguridad y protocolos sanitarios.",
-                "Prepare la información sobre el uso del inmueble y adjúde el contrato de arrendamiento si corresponde: tenga una copia digital del contrato lista para ser subida al formulario.",
+                "Prepare la información sobre el uso del inmueble y adjude el contrato de arrendamiento si corresponde: tenga una copia digital del contrato lista para ser subida al formulario.",
               ],
               caveats: [
                 "El uso del inmueble debe estar acorde con las regulaciones municipales y cumplir con las normativas de salud y seguridad requeridas para la actividad comercial.",
@@ -174,7 +174,7 @@ export default {
     {
       tipo: "Sociedad Anónima",
       descripcion:
-        "Una empresa de tipo Sociedad Anónima (S.A.) es una forma de organización empresarial que constituye una entidad legal separada de sus propietarios, conocida como una persona jurídica. En una Sociedad Anónima, la propiedad de la empresa se divide en acciones, que pueden ser compradas, vendidas o transferidas libremente entre los accionistas.",
+        "Una empresa de tipo Sociedad Anónima (S.A.) es una forma de organización empresarial que constituye una entidad legal separada de sus propietarios, conocida como una persona jurídica. En una Sociedad Anónima, la propiedad de la empresa se divide en acciones, que pueden ser compradas, vendidas o transferidas libremente entre los accionistas. Esta estructura proporciona una limitación de responsabilidad, de modo que los accionistas solo son responsables hasta el monto de su inversión (Artículo 75 del Código de Comercio).",
       pasos: [
         {
           paso: "Definir Nombre de la Empresa",
@@ -190,7 +190,7 @@ export default {
                 "Asegúrese de que el nombre deseado no esté registrado por otra empresa: intente varias alternativas por si el nombre deseado ya está tomado.",
               ],
               caveats: [
-                "El nombre debe ser único y no prestarse a confusión con otras sociedades existentes. Asegúrese de cumplir con las normas establecidas para la denominación de sociedades en el Registro Nacional.",
+                "El nombre debe ser único y no prestarse a confusión con otras sociedades existentes. Asegúrese de cumplir con las normas establecidas para la denominación de sociedades en el Registro Nacional (Artículo 246 del Código de Comercio).",
               ],
             },
             {
@@ -229,7 +229,7 @@ export default {
                 "Asegúrese de llevar información de los accionistas, incluyendo nombres completos y copias de identificación: confirme que cada accionista tenga sus documentos en regla.",
               ],
               caveats: [
-                "Es obligatorio que el acta constitutiva esté autenticada por un notario público para que tenga validez legal.",
+                "Es obligatorio que el acta constitutiva esté autenticada por un notario público para que tenga validez legal (Artículo 102 del Código de Comercio).",
               ],
             },
             {
@@ -241,7 +241,7 @@ export default {
                 "Incluya la información de contacto de cada socio y sus responsabilidades: verifique que cada socio entienda sus responsabilidades y esté dispuesto a cumplirlas.",
               ],
               caveats: [
-                "Asegúrese de que el capital social mínimo cumpla con los requisitos legales establecidos para sociedades anónimas.",
+                "Asegúrese de que el capital social mínimo cumpla con los requisitos legales establecidos para sociedades anónimas (Artículo 5 del Código de Comercio).",
               ],
             },
             {
@@ -272,7 +272,7 @@ export default {
                 "Adjunte todos los documentos necesarios, incluyendo el acta constitutiva autenticada y la certificación de nombre.",
               ],
               caveats: [
-                "Todos los documentos presentados deben ser originales o copias autenticadas para evitar demoras en el proceso de inscripción.",
+                "Todos los documentos presentados deben ser originales o copias autenticadas para evitar demoras en el proceso de inscripción (Artículo 235 del Código de Comercio).",
               ],
             },
             {
@@ -311,7 +311,7 @@ export default {
                 "Una vez aprobados, firme los estatutos ante un notario público para darles validez legal.",
               ],
               caveats: [
-                "Los estatutos deben cumplir con todas las disposiciones legales y ser inscritos correctamente en el Registro Nacional para evitar problemas legales futuros.",
+                "Los estatutos deben cumplir con todas las disposiciones legales y ser inscritos correctamente en el Registro Nacional para evitar problemas legales futuros (Artículo 107 del Código de Comercio).",
               ],
             },
             {
@@ -453,7 +453,7 @@ export default {
                 "Asegúrese de que el nombre deseado no esté registrado por otra empresa: intente varias alternativas por si el nombre deseado ya está tomado.",
               ],
               caveats: [
-                "El nombre de la empresa no debe ser igual o similar a uno ya registrado, para evitar problemas legales o de confusión en el mercado.",
+                "El nombre de la empresa no debe ser igual o similar a uno ya registrado, para evitar problemas legales o de confusión en el mercado. El nombre debe estar constituido por letras y puede abreviarse 'Ltda' o 'S.R.L.' según los estatutos sociales (Artículo 39 del Código de Comercio)&#8203;:contentReference[oaicite:0]{index=0}.",
               ],
             },
             {
@@ -497,7 +497,7 @@ export default {
                 "Incluya información detallada sobre los socios y el capital inicial.",
               detalle: [
                 "Especifique la participación de cada socio: defina claramente cómo se dividirán las ganancias y responsabilidades.",
-                "Defina el monto del capital social y cómo será distribuido: asegúrese de que todos los socios estén de acuerdo con la distribución propuesta.",
+                "Defina el monto del capital social y cómo será distribuido: asegúrese de que todos los socios estén de acuerdo con la distribución propuesta. El capital está dividido en cuotas nominativas no transferibles sin la aprobación de la Asamblea de Cuotistas (Artículo 39 del Código de Comercio)&#8203;:contentReference[oaicite:1]{index=1}.",
                 "Incluya la información de contacto de cada socio y sus responsabilidades: verifique que cada socio entienda sus responsabilidades y esté dispuesto a cumplirlas.",
               ],
               caveats: [
@@ -616,12 +616,12 @@ export default {
     {
       tipo: "Cooperativa",
       descripcion:
-        "Una empresa de tipo Cooperativa es una organización empresarial que se distingue de otras formas de negocio por estar basada en principios de solidaridad, participación democrática y beneficio colectivo. Una cooperativa se constituye como una persona jurídica que pertenece y es gestionada por sus miembros, quienes son, al mismo tiempo, sus propietarios y principales beneficiarios. Su objetivo principal es satisfacer las necesidades y aspiraciones comunes de sus miembros, más que maximizar las ganancias como en las empresas tradicionales.",
+        "Una empresa de tipo Cooperativa es una organización empresarial que se distingue de otras formas de negocio por estar basada en principios de solidaridad, participación democrática y beneficio colectivo. Una cooperativa se constituye como una persona jurídica que pertenece y es gestionada por sus miembros, quienes son, al mismo tiempo, sus propietarios y principales beneficiarios. Su objetivo principal es satisfacer las necesidades y aspiraciones comunes de sus miembros, más que maximizar las ganancias como en las empresas tradicionales. Además, debe operar dentro de los límites establecidos por el Código de Comercio y otras leyes específicas para entidades no lucrativas.",
       pasos: [
         {
           paso: "Definir el Objeto de la Cooperativa",
           descripcion:
-            "Determine la misión, visión y el objeto de la cooperativa, asegurándose de que esté alineado con los principios cooperativos.",
+            "Determine la misión, visión y el objeto de la cooperativa, asegurándose de que esté alineado con los principios cooperativos y que se enmarque dentro de las actividades lícitas permitidas por la ley.",
           documentos: [
             "Misión y visión de la cooperativa",
             "Estatutos de la cooperativa",
@@ -635,7 +635,7 @@ export default {
                 "Documente la misión, visión y objetivos: esto servirá de base para la redacción de los estatutos de la cooperativa.",
               ],
               caveats: [
-                "La misión y visión deben alinearse con los principios cooperativos para asegurar la coherencia y el compromiso de todos los miembros.",
+                "La misión y visión deben alinearse con los principios cooperativos para asegurar la coherencia y el compromiso de todos los miembros. Además, deben cumplir con la normativa del Código de Comercio para evitar problemas legales.",
               ],
             },
             {
@@ -646,7 +646,7 @@ export default {
                 "Revise y finalice los estatutos con el abogado y los miembros fundadores: todos deben estar de acuerdo con los términos antes de proceder.",
               ],
               caveats: [
-                "Es importante que los estatutos reflejen claramente los derechos y responsabilidades de los miembros para evitar futuros conflictos.",
+                "Es importante que los estatutos reflejen claramente los derechos y responsabilidades de los miembros para evitar futuros conflictos. Además, deben cumplir con los requisitos establecidos en el Código de Comercio para su validez legal.",
               ],
             },
           ],
@@ -654,7 +654,7 @@ export default {
         {
           paso: "Constitución de la Cooperativa",
           descripcion:
-            "Formalice la constitución de la cooperativa mediante una asamblea constitutiva y la firma de los estatutos.",
+            "Formalice la constitución de la cooperativa mediante una asamblea constitutiva y la firma de los estatutos, asegurándose de cumplir con los requisitos del Código de Comercio.",
           documentos: [
             "Estatutos de la cooperativa",
             "Lista de miembros fundadores",
@@ -668,7 +668,7 @@ export default {
                 "Asegúrese de contar con quórum para tomar decisiones: verifique cuántos miembros son necesarios para cumplir con los requisitos legales.",
               ],
               caveats: [
-                "Es esencial contar con quórum en la asamblea constitutiva para que las decisiones tomadas tengan validez legal.",
+                "Es esencial contar con quórum en la asamblea constitutiva para que las decisiones tomadas tengan validez legal, tal como lo exige el Código de Comercio.",
               ],
             },
             {
@@ -679,7 +679,7 @@ export default {
                 "El notario debe emitir una copia certificada del acta de la asamblea: guarde este documento como evidencia de la constitución de la cooperativa.",
               ],
               caveats: [
-                "La firma ante notario es necesaria para garantizar la validez legal de los estatutos y la constitución de la cooperativa.",
+                "La firma ante notario es necesaria para garantizar la validez legal de los estatutos y la constitución de la cooperativa, conforme a lo estipulado en el Código de Comercio.",
               ],
             },
           ],
@@ -687,7 +687,7 @@ export default {
         {
           paso: "Inscripción en el Registro Nacional",
           descripcion:
-            "Registre la cooperativa en el Registro Nacional para formalizar su existencia legal.",
+            "Registre la cooperativa en el Registro Nacional para formalizar su existencia legal y obtener su personería jurídica.",
           documentos: [
             "Estatutos autenticados",
             "Acta de la asamblea constitutiva",
@@ -702,7 +702,7 @@ export default {
                 "Realice copias adicionales de todos los documentos: algunas oficinas del Registro Nacional pueden solicitar copias adicionales.",
               ],
               caveats: [
-                "Es importante asegurarse de que todos los documentos estén en regla para evitar retrasos en el proceso de inscripción.",
+                "Es importante asegurarse de que todos los documentos estén en regla para evitar retrasos en el proceso de inscripción, según lo estipulado en el Reglamento del Registro de Transparencia y Beneficiarios Finales.",
               ],
             },
             {
@@ -729,7 +729,7 @@ export default {
         {
           paso: "Afiliación al INFOCOOP",
           descripcion:
-            "Afíliese al Instituto Nacional de Fomento Cooperativo (INFOCOOP) para recibir apoyo y asesoría.",
+            "Afíliese al Instituto Nacional de Fomento Cooperativo (INFOCOOP) para recibir apoyo y asesoría técnica y financiera.",
           documentos: ["Personería jurídica", "Formulario de afiliación"],
           subpasos: [
             {
@@ -836,7 +836,7 @@ export default {
     {
       tipo: "Sociedad en Comandita Simple",
       descripcion:
-        "Una empresa de tipo Sociedad en Comandita Simple es una forma de organización empresarial que combina elementos de una sociedad de personas y una sociedad de capital. Se caracteriza por tener dos tipos de socios, cada uno con diferentes niveles de participación y responsabilidad. Es una opción menos común que otras formas de sociedades, pero puede ser útil en situaciones específicas donde se busca una combinación de gestión activa y aportación de capital sin involucrarse en la administración.",
+        "Una empresa de tipo Sociedad en Comandita Simple es una forma de organización empresarial que combina elementos de una sociedad de personas y una sociedad de capital. Se caracteriza por tener dos tipos de socios: los socios colectivos (o comanditados), que tienen responsabilidad ilimitada y gestionan la empresa, y los socios comanditarios, que tienen responsabilidad limitada al capital que aportan. Es una opción ideal cuando se requiere una combinación de gestión activa y aportación de capital sin involucrarse en la administración (Artículo 67 y 68 del Código de Comercio).",
       pasos: [
         {
           paso: "Definir Nombre de la Empresa",
@@ -852,7 +852,7 @@ export default {
                 "Asegúrese de que el nombre deseado no esté registrado por otra empresa: intente varias alternativas por si el nombre deseado ya está tomado.",
               ],
               caveats: [
-                "El nombre de la empresa no debe ser igual o similar a uno ya registrado, para evitar problemas legales o de confusión en el mercado.",
+                "El nombre de la empresa no debe ser igual o similar a uno ya registrado, para evitar problemas legales o de confusión en el mercado (Artículo 7 del Código de Comercio).",
               ],
             },
             {
@@ -891,14 +891,14 @@ export default {
                 "Asegúrese de llevar documentos de identificación de todos los socios: cédulas de identidad o pasaportes vigentes.",
               ],
               caveats: [
-                "La asesoría legal es esencial para garantizar que la escritura cumpla con todas las regulaciones legales aplicables.",
+                "La asesoría legal es esencial para garantizar que la escritura cumpla con todas las regulaciones legales aplicables (Artículo 67 del Código de Comercio).",
               ],
             },
             {
               subpaso:
                 "Detallar las características específicas de la Sociedad en Comandita Simple.",
               detalle: [
-                "Identificar a los socios colectivos y comanditarios: los socios colectivos tienen responsabilidad ilimitada, mientras que los comanditarios tienen responsabilidad limitada al capital aportado.",
+                "Identificar a los socios colectivos y comanditarios: los socios colectivos tienen responsabilidad ilimitada, mientras que los comanditarios tienen responsabilidad limitada al capital aportado (Artículo 68 del Código de Comercio).",
                 "Especificar el capital aportado por cada socio: detallar las aportaciones en dinero o en especie.",
                 "Definir la administración de la sociedad: generalmente, los socios colectivos administran la sociedad.",
               ],
@@ -914,7 +914,7 @@ export default {
                 "El notario dará fe de la autenticidad de las firmas y la validez del documento: solicite copias certificadas para cada socio.",
               ],
               caveats: [
-                "La firma ante notario es obligatoria para que la escritura tenga validez legal.",
+                "La firma ante notario es obligatoria para que la escritura tenga validez legal (Artículo 68 del Código de Comercio).",
               ],
             },
           ],
@@ -1270,114 +1270,9 @@ export default {
               ],
               caveats: [
                 "El registro de la escritura y los estatutos debe ser realizado de forma oportuna para que la sociedad sea reconocida legalmente.",
-              ],
-            },
-          ],
-        },
-        {
-          paso: "Inscripción Tributaria",
-          descripcion:
-            "Registre la sociedad como contribuyente ante el Ministerio de Hacienda y obtenga el Número de Identificación Tributaria (NIT).",
-          documentos: [
-            "Formulario D-140",
-            "Documento de identidad del representante legal",
-          ],
-          subpasos: [
-            {
-              subpaso: "Registro en el Ministerio de Hacienda",
-              detalle: [
-                "Visite el portal de ATV del Ministerio de Hacienda y complete el formulario D-140 con los datos de la sociedad.",
-                "Adjunte los documentos requeridos, como la cédula del representante legal y la escritura pública de constitución.",
-                "Espere la confirmación del registro y obtenga el NIT, que se usará para todos los trámites tributarios.",
-              ],
-              caveats: [
-                "El NIT es fundamental para cualquier transacción tributaria y debe obtenerse antes de realizar actividades comerciales.",
-              ],
-            },
-          ],
-        },
-        {
-          paso: "Apertura de Cuenta Bancaria",
-          descripcion:
-            "Abra una cuenta bancaria a nombre de la sociedad para manejar sus operaciones financieras.",
-          documentos: [
-            "Escritura Pública de Constitución",
-            "Personería jurídica",
-            "Cédula del representante legal",
-          ],
-          subpasos: [
-            {
-              subpaso: "Contactar al Banco",
-              detalle: [
-                "Seleccione un banco que ofrezca condiciones adecuadas para la cuenta empresarial y comuníquese con un asesor.",
-                "Solicite una cita para la apertura de la cuenta: explique que se trata de una sociedad en comandita por acciones recién constituida y que necesita una cuenta para sus operaciones.",
-                "Prepare los documentos requeridos y preséntese el día de la cita en la sucursal bancaria seleccionada.",
-              ],
-              caveats: [
-                "Es importante seleccionar un banco que ofrezca productos financieros adecuados para el tipo de actividad que realizará la sociedad.",
-              ],
-            },
-            {
-              subpaso: "Apertura de la Cuenta",
-              detalle: [
-                "Complete los formularios del banco para la apertura de la cuenta: asegúrese de proporcionar toda la información de la sociedad, incluyendo el NIT y la personería jurídica.",
-                "Deposite el monto mínimo requerido para abrir la cuenta, si aplica: este monto puede variar según el banco.",
-                "Guarde todos los comprobantes relacionados con la apertura de la cuenta, ya que serán necesarios para futuras transacciones.",
-              ],
-            },
-          ],
-        },
-        {
-          paso: "Mantener la Sociedad Activa",
-          descripcion:
-            "Cumpla con las obligaciones fiscales y administrativas para mantener la sociedad en regla.",
-          documentos: [
-            "Certificados de cumplimiento tributario",
-            "Comprobante de pagos de la CCSS",
-          ],
-          subpasos: [
-            {
-              subpaso: "Declaraciones Tributarias Mensuales",
-              detalle: [
-                "Visite el portal de ATV del Ministerio de Hacienda para presentar la declaración de impuestos mensuales: use el NIT para ingresar.",
-                "Complete la declaración con los ingresos y gastos de la sociedad: tenga a mano los libros contables y facturas.",
-                "Pague el impuesto antes de la fecha límite para evitar multas: puede realizar el pago en línea o en un banco autorizado.",
-              ],
-              caveats: [
-                "Es fundamental realizar las declaraciones tributarias a tiempo para evitar sanciones económicas y posibles problemas legales.",
-              ],
-            },
-            {
-              subpaso: "Pago de la CCSS",
-              detalle: [
-                "Calcule las cargas sociales mensuales en base a los salarios de los empleados: este cálculo puede hacerse a través del sistema en línea de la CCSS.",
-                "Realice el pago de las cargas sociales antes del día 15 de cada mes: puede hacer el pago en línea o en un banco autorizado.",
-                "Guarde el comprobante del pago como respaldo para auditorías.",
-              ],
-              caveats: [
-                "El pago puntual de la CCSS es obligatorio para evitar sanciones y garantizar los beneficios sociales a los empleados.",
-              ],
-            },
-            {
-              subpaso: "Renovación de Permisos y Licencias",
-              detalle: [
-                "Revise las fechas de vencimiento de los permisos y patentes de la sociedad: generalmente se renuevan anualmente.",
-                "Visite la municipalidad y el Ministerio de Salud para renovar los permisos: presente el comprobante de pago de impuestos y otros documentos requeridos.",
-                "Pague las tarifas correspondientes y guarde los comprobantes.",
-              ],
-              caveats: [
-                "No renovar los permisos y licencias a tiempo puede resultar en multas y posibles sanciones, incluyendo la suspensión de actividades.",
-              ],
-            },
-            {
-              subpaso: "Reportes Financieros Anuales",
-              detalle: [
-                "Contrate a un contador para preparar los estados financieros anuales de la sociedad.",
-                "Presente el reporte anual de ingresos y gastos al Ministerio de Hacienda antes del 31 de marzo: esto se puede hacer a través del portal ATV o con ayuda del contador.",
-                "Asegúrese de cumplir con todas las normativas contables y fiscales para evitar sanciones.",
-              ],
-              caveats: [
-                "La presentación de reportes financieros anuales es obligatoria y debe ser precisa para evitar sanciones por parte de las autoridades fiscales.",
+
+                "Ingrese a la página oficial del Registro Nacional: asegúrese de que el sitio web sea legítimo y seguro.",
+                "Busque la opción de consulta de nombres de sociedades: puede utilizar la barra de navegación o la sección de 'Trámites en Línea'.",
               ],
             },
           ],
@@ -1387,7 +1282,7 @@ export default {
     {
       tipo: "Sociedad en Nombre Colectivo",
       descripcion:
-        "Una Sociedad en Nombre Colectivo es una forma de organización empresarial en la cual dos o más socios se asocian para realizar actividades comerciales bajo una razón social común. Esta sociedad es conocida por la responsabilidad ilimitada y solidaria de sus socios, lo que significa que cada uno de ellos puede ser responsable por las deudas y obligaciones de la empresa con todo su patrimonio personal.",
+        "Una Sociedad en Nombre Colectivo es una forma de organización empresarial en la cual dos o más socios se asocian para realizar actividades comerciales bajo una razón social común. Esta sociedad es conocida por la responsabilidad ilimitada y solidaria de sus socios, lo que significa que cada uno de ellos puede ser responsable por las deudas y obligaciones de la empresa con todo su patrimonio personal (Art. 38 del Código de Comercio).",
       pasos: [
         {
           paso: "Definir Nombre de la Empresa",
@@ -1451,7 +1346,7 @@ export default {
                 "Incluya la información de contacto de cada socio y sus responsabilidades: verifique que cada socio entienda sus responsabilidades y esté dispuesto a cumplirlas.",
               ],
               caveats: [
-                "Todos los socios tienen responsabilidad ilimitada y solidaria en una Sociedad en Nombre Colectivo, por lo que es esencial que estén de acuerdo con las condiciones establecidas.",
+                "Todos los socios tienen responsabilidad ilimitada y solidaria en una Sociedad en Nombre Colectivo, por lo que es esencial que estén de acuerdo con las condiciones establecidas (Art. 39 del Código de Comercio).",
               ],
             },
             {
@@ -1655,7 +1550,7 @@ export default {
     {
       tipo: "Empresa Individual de Responsabilidad Limitada (E.I.R.L.)",
       descripcion:
-        "Una Empresa Individual de Responsabilidad Limitada (E.I.R.L.) es un tipo de organización empresarial constituida por una sola persona, que tiene la ventaja de ofrecer responsabilidad limitada al propietario. Este tipo de empresa es una persona jurídica independiente del propietario, lo cual significa que sus bienes y obligaciones están separados de los bienes personales del titular, protegiendo así el patrimonio personal del empresario.",
+        "Una Empresa Individual de Responsabilidad Limitada (E.I.R.L.) es un tipo de organización empresarial constituida por una sola persona, que tiene la ventaja de ofrecer responsabilidad limitada al propietario. Este tipo de empresa es una persona jurídica independiente del propietario, lo cual significa que sus bienes y obligaciones están separados de los bienes personales del titular, protegiendo así el patrimonio personal del empresario. La E.I.R.L. combina la simplicidad de una propiedad individual con la protección de responsabilidad limitada propia de sociedades mercantiles, siendo su constitución regulada por disposiciones específicas del Código de Comercio de Costa Rica (Artículo 9 del Código de Comercio).",
       pasos: [
         {
           paso: "Definir Nombre de la Empresa",
@@ -1704,9 +1599,9 @@ export default {
             {
               subpaso: "Incluir información esencial en el estatuto",
               detalle: [
-                "Definir el objeto social de la empresa: detalle las actividades comerciales que realizará.",
+                "Definir el objeto social de la empresa: detalle las actividades comerciales que realizará (Artículo 3 del Código de Comercio).",
                 "Establecer el capital social y su forma de pago: especifique el monto y cómo se aportará (efectivo, bienes, etc.).",
-                "Detallar la administración y representación legal de la empresa: indique cómo se tomará las decisiones y quién será el representante legal.",
+                "Detallar la administración y representación legal de la empresa: indique cómo se tomarán las decisiones y quién será el representante legal (Artículo 5 del Código de Comercio).",
               ],
               caveats: [
                 "El estatuto debe cumplir con las leyes y regulaciones vigentes para E.I.R.L. para ser válido legalmente.",
@@ -1910,7 +1805,7 @@ export default {
     {
       tipo: "Sociedad Civil",
       descripcion:
-        "Una empresa de tipo Sociedad Civil es una forma de organización empresarial en la que dos o más personas se asocian con el propósito de llevar a cabo actividades de naturaleza profesional o no comercial, es decir, actividades que no tienen fines mercantiles como objetivo principal. Es comúnmente utilizada por profesionales que desean unir sus esfuerzos para ofrecer servicios especializados, tales como abogados, arquitectos, médicos, contadores, ingenieros, entre otros.",
+        "Una empresa de tipo Sociedad Civil es una forma de organización empresarial en la que dos o más personas se asocian con el propósito de llevar a cabo actividades de naturaleza profesional o no comercial, es decir, actividades que no tienen fines mercantiles como objetivo principal. Es comúnmente utilizada por profesionales que desean unir sus esfuerzos para ofrecer servicios especializados, tales como abogados, arquitectos, médicos, contadores, ingenieros, entre otros. Esta sociedad puede generar lucro, pero siempre en beneficio de sus socios y no con fines comerciales directos. Según el Código Civil, esta figura se rige por los artículos 1196 y siguientes, los cuales establecen el marco legal de la sociedad civil y las reglas de administración, distribución de utilidades, y disolución (Artículo 1196, Código Civil)【36†source】.",
       pasos: [
         {
           paso: "Definir Nombre de la Sociedad",
@@ -1926,7 +1821,7 @@ export default {
                 "Considere varias opciones de nombre en caso de que el primero no esté disponible.",
               ],
               caveats: [
-                "El nombre elegido no debe ser idéntico o similar a otro ya registrado para evitar conflictos legales.",
+                "El nombre elegido no debe ser idéntico o similar a otro ya registrado para evitar conflictos legales (Artículo 1196, Código Civil)【36†source】.",
               ],
             },
             {
@@ -1962,11 +1857,11 @@ export default {
             {
               subpaso: "Incluir cláusulas esenciales en el contrato",
               detalle: [
-                "Detallar el objeto social o actividad principal de la sociedad.",
+                "Detallar el objeto social o actividad principal de la sociedad (debe ser una actividad no comercial según los artículos 5 y 17 del Código de Comercio)【36†source】.",
                 "Especificar las aportaciones de cada socio, ya sean en dinero, bienes o servicios.",
                 "Establecer la forma de administración y representación de la sociedad.",
-                "Definir la distribución de utilidades y pérdidas entre los socios.",
-                "Incluir cláusulas sobre la disolución y liquidación de la sociedad.",
+                "Definir la distribución de utilidades y pérdidas entre los socios (Artículo 1196, Código Civil)【36†source】.",
+                "Incluir cláusulas sobre la disolución y liquidación de la sociedad (Artículo 1196, Código Civil)【36†source】.",
               ],
               caveats: [
                 "Es fundamental que todas las cláusulas sean claras para evitar malentendidos futuros entre los socios.",
@@ -1981,7 +1876,7 @@ export default {
                 "Solicitar copias certificadas del contrato para cada socio y para trámites posteriores.",
               ],
               caveats: [
-                "La protocolización del contrato ante notario es necesaria para otorgarle validez legal.",
+                "La protocolización del contrato ante notario es necesaria para otorgarle validez legal (Artículo 1196, Código Civil)【36†source】.",
               ],
             },
           ],
@@ -2245,7 +2140,7 @@ export default {
     {
       tipo: "Sucursal de Sociedad Extranjera",
       descripcion:
-        "Una empresa de tipo Sucursal de Sociedad Extranjera es una extensión de una empresa extranjera que opera en otro país. Es una entidad jurídica que depende de una sociedad matriz situada en otro país y que tiene como objetivo llevar a cabo actividades comerciales, operativas o administrativas en un territorio diferente al de origen. Aunque la sucursal está registrada y opera en un país extranjero, sigue siendo parte de la sociedad matriz, sin constituir una nueva persona jurídica separada.",
+        "Una empresa de tipo Sucursal de Sociedad Extranjera es una extensión de una empresa extranjera que opera en otro país. Es una entidad jurídica que depende de una sociedad matriz situada en otro país y que tiene como objetivo llevar a cabo actividades comerciales, operativas o administrativas en un territorio diferente al de origen. Aunque la sucursal está registrada y opera en Costa Rica, sigue siendo parte de la sociedad matriz, sin constituir una nueva persona jurídica separada. Según el artículo 19 del Código de Comercio, las sucursales deben registrarse en el país y cumplir con las leyes locales para realizar actividades comerciales.",
       pasos: [
         {
           paso: "Legalizar Documentos de la Sociedad Matriz",
@@ -2579,6 +2474,286 @@ export default {
               ],
               caveats: [
                 "La transparencia financiera es crucial para cumplir con regulaciones y mantener la confianza de las autoridades.",
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      tipo: "Asociación Deportiva",
+      descripcion:
+        "Una Asociación Deportiva es una entidad de carácter no lucrativo enfocada en actividades deportivas, cuya finalidad es promover, organizar y desarrollar actividades relacionadas con el deporte. Las asociaciones deportivas están reguladas por leyes específicas y deben cumplir con ciertos requisitos para su constitución y operación. Están constituidas por miembros que buscan objetivos comunes relacionados con la práctica y promoción del deporte (Artículo 3 de la Constitución de Asociación Deportiva)【33†source】.",
+      pasos: [
+        {
+          paso: "Definir el Nombre y Domicilio de la Asociación",
+          descripcion:
+            "Determine el nombre y domicilio de la asociación, asegurando que el nombre no esté registrado por otra organización y cumpliendo con los requisitos legales.",
+          documentos: ["Certificación de disponibilidad de nombre"],
+          subpasos: [
+            {
+              subpaso: "Verificar la disponibilidad del nombre",
+              detalle: [
+                "Acceda al sitio web del Registro Nacional para verificar la disponibilidad del nombre propuesto para la asociación.",
+                "Asegúrese de que el nombre deseado no esté registrado por otra entidad: intente varias alternativas si el nombre está tomado.",
+                "Obtenga la certificación de disponibilidad de nombre para respaldar el proceso de registro.",
+              ],
+              caveats: [
+                "El nombre de la asociación no debe ser igual o similar a uno ya registrado, para evitar problemas legales o de confusión en el mercado (Artículo 2 de la Constitución de Asociación Deportiva)【33†source】.",
+              ],
+            },
+            {
+              subpaso: "Determinar el domicilio de la asociación",
+              detalle: [
+                "Establezca la dirección oficial de la asociación dentro de Costa Rica, incluyendo la provincia, el cantón y el distrito (Artículo 2 de la Constitución de Asociación Deportiva)【33†source】.",
+                "Esta dirección será utilizada para recibir notificaciones legales y administrativas.",
+              ],
+            },
+          ],
+        },
+        {
+          paso: "Definir los Objetivos y Actividades",
+          descripcion:
+            "Especifique los objetivos principales de la asociación, asegurando que sean de carácter deportivo y no lucrativo.",
+          documentos: ["Documento de objetivos y actividades"],
+          subpasos: [
+            {
+              subpaso: "Definir los objetivos de la asociación",
+              detalle: [
+                "Establezca los objetivos principales de la asociación, asegurándose de que sean congruentes con el propósito deportivo y no lucrativo.",
+                "Los objetivos deben enfatizar la promoción y desarrollo del deporte entre sus miembros y la comunidad (Artículo 3 de la Constitución de Asociación Deportiva)【33†source】.",
+              ],
+              caveats: [
+                "Los objetivos de la asociación deben estar alineados con su naturaleza no lucrativa, para evitar conflictos legales o fiscales.",
+              ],
+            },
+            {
+              subpaso: "Determinar las actividades permitidas",
+              detalle: [
+                "Defina las actividades que llevará a cabo la asociación para cumplir sus objetivos, como organización de eventos deportivos, recaudación de fondos y adquisición de equipos (Artículo 4 de la Constitución de Asociación Deportiva)【33†source】.",
+                "Las actividades deben ser compatibles con la naturaleza de la asociación y contribuir al cumplimiento de sus fines.",
+              ],
+            },
+          ],
+        },
+        {
+          paso: "Elaborar el Acta Constitutiva",
+          descripcion:
+            "Prepare el acta constitutiva con la asistencia de un abogado, la cual debe incluir la información sobre los miembros fundadores, los objetivos y el capital inicial.",
+          documentos: [
+            "Acta Constitutiva",
+            "Identificación de los miembros fundadores",
+          ],
+          subpasos: [
+            {
+              subpaso:
+                "Contratar a un abogado para la redacción del acta constitutiva",
+              detalle: [
+                "Busque un abogado especializado en derecho corporativo y asociaciones sin fines de lucro.",
+                "Programe una reunión para discutir los detalles de la asociación, incluyendo sus objetivos, los miembros fundadores y sus roles.",
+              ],
+              caveats: [
+                "La asesoría legal es esencial para garantizar que el acta constitutiva cumpla con todas las regulaciones aplicables (Artículo 2 de la Constitución de Asociación Deportiva)【33†source】.",
+              ],
+            },
+            {
+              subpaso: "Incluir la clasificación de los miembros",
+              detalle: [
+                "Identifique a los diferentes tipos de miembros de la asociación, incluyendo miembros fundadores, activos y honorarios (Artículo 6 de la Constitución de Asociación Deportiva)【33†source】.",
+                "Especifique los derechos y obligaciones de cada tipo de miembro, como el derecho a voto y la participación en actividades.",
+              ],
+              caveats: [
+                "La clasificación de los miembros debe ser clara para evitar conflictos en la gestión de la asociación.",
+              ],
+            },
+            {
+              subpaso: "Firme el acta constitutiva ante notario",
+              detalle: [
+                "Coordine una cita con el abogado y un notario para firmar el acta constitutiva.",
+                "Asegúrese de que todos los miembros fundadores presenten sus identificaciones vigentes y estén presentes para la firma.",
+                "El notario dará fe de la autenticidad de las firmas y la validez del documento: solicite copias certificadas para cada miembro.",
+              ],
+              caveats: [
+                "La firma ante notario es obligatoria para que el acta tenga validez legal (Artículo 7 de la Constitución de Asociación Deportiva)【33†source】.",
+              ],
+            },
+          ],
+        },
+        {
+          paso: "Inscripción en el Registro Nacional",
+          descripcion:
+            "Registre la asociación deportiva en el Registro Nacional para obtener su personalidad jurídica.",
+          documentos: [
+            "Acta Constitutiva autenticada",
+            "Certificación de disponibilidad de nombre",
+            "Identificación de los miembros",
+          ],
+          subpasos: [
+            {
+              subpaso: "Complete el formulario de inscripción",
+              detalle: [
+                "Obtenga el formulario de inscripción en el Registro Nacional o descárguelo de su sitio web.",
+                "Complete toda la información requerida sobre la asociación y los miembros fundadores.",
+                "Adjunte los documentos necesarios, incluyendo el acta autenticada y la certificación de nombre.",
+              ],
+              caveats: [
+                "La omisión de información o documentos puede retrasar el proceso de inscripción.",
+              ],
+            },
+            {
+              subpaso: "Presentar la documentación en el Registro Nacional",
+              detalle: [
+                "Entregue todos los documentos en la oficina del Registro Nacional.",
+                "Pague las tarifas correspondientes al registro de la asociación y guarde el comprobante de pago.",
+                "Espere la revisión y aprobación de la documentación: el Registro Nacional notificará si hay observaciones o si se requiere información adicional.",
+              ],
+              caveats: [
+                "El registro no será efectivo hasta que se completen todos los requisitos y se realicen los pagos correspondientes.",
+              ],
+            },
+            {
+              subpaso: "Obtenga la personería jurídica",
+              detalle: [
+                "Una vez inscrita, solicite una copia de la personería jurídica de la asociación.",
+                "Guarde este documento en un lugar seguro: es necesario para realizar trámites legales y financieros.",
+                "Utilice la personería jurídica para abrir cuentas bancarias y gestionar otros asuntos en nombre de la asociación.",
+              ],
+            },
+          ],
+        },
+        {
+          paso: "Inscripción Tributaria",
+          descripcion:
+            "Registre la asociación como contribuyente ante el Ministerio de Hacienda y obtenga el Número de Identificación Tributaria (NIT).",
+          documentos: [
+            "Formulario D-140",
+            "Documento de identidad del representante legal",
+            "Personería jurídica",
+          ],
+          subpasos: [
+            {
+              subpaso: "Registro en el Ministerio de Hacienda",
+              detalle: [
+                "Acceda al portal ATV del Ministerio de Hacienda y complete el formulario D-140 con los datos de la asociación.",
+                "Adjunte los documentos requeridos: personería jurídica y cédula del representante legal.",
+                "Espere la confirmación del registro y obtenga el NIT para trámites tributarios.",
+              ],
+              caveats: [
+                "El NIT es indispensable para cualquier actividad tributaria de la asociación.",
+              ],
+            },
+          ],
+        },
+        {
+          paso: "Apertura de Cuenta Bancaria",
+          descripcion:
+            "Abra una cuenta bancaria a nombre de la asociación para manejar sus operaciones financieras.",
+          documentos: [
+            "Acta Constitutiva",
+            "Personería jurídica",
+            "Cédula del representante legal",
+          ],
+          subpasos: [
+            {
+              subpaso: "Seleccionar el Banco",
+              detalle: [
+                "Investigue las opciones bancarias disponibles que ofrezcan cuentas para asociaciones sin fines de lucro.",
+                "Compare tarifas, requisitos y servicios adicionales que puedan ser beneficiosos para la asociación.",
+                "Seleccione el banco que mejor se adapte a las necesidades de la asociación.",
+              ],
+            },
+            {
+              subpaso: "Apertura de la Cuenta",
+              detalle: [
+                "Contacte al banco y programe una cita para abrir la cuenta de la asociación.",
+                "Presente todos los documentos requeridos: acta constitutiva, personería jurídica y cédula del representante legal.",
+                "Complete los formularios proporcionados por el banco y realice el depósito inicial si es necesario.",
+              ],
+              caveats: [
+                "Asegúrese de entender las condiciones y obligaciones asociadas con la cuenta bancaria de la asociación.",
+              ],
+            },
+          ],
+        },
+        {
+          paso: "Obtención de Permisos y Licencias",
+          descripcion:
+            "Gestione los permisos y licencias necesarios para operar legalmente.",
+          documentos: [
+            "Permiso de funcionamiento del Ministerio de Salud",
+            "Patente municipal",
+            "Inscripción en la Caja Costarricense de Seguro Social (CCSS)",
+          ],
+          subpasos: [
+            {
+              subpaso: "Permiso del Ministerio de Salud",
+              detalle: [
+                "Complete el formulario de solicitud de permiso de funcionamiento: disponible en el sitio web del Ministerio de Salud.",
+                "Adjunte los documentos requeridos: planos del local, certificaciones, etc.",
+                "Presente la solicitud en la oficina regional correspondiente y pague las tasas aplicables.",
+              ],
+              caveats: [
+                "El permiso es obligatorio para actividades que puedan afectar la salud pública.",
+              ],
+            },
+            {
+              subpaso: "Obtención de la Patente Municipal",
+              detalle: [
+                "Visite la municipalidad donde operará la asociación para solicitar la patente.",
+                "Complete el formulario de solicitud y adjunte los documentos necesarios: permiso del Ministerio de Salud, personería jurídica, etc.",
+                "Pague las tarifas correspondientes y espere la aprobación de la patente.",
+              ],
+              caveats: [
+                "Operar sin patente municipal puede resultar en sanciones y cierre del establecimiento.",
+              ],
+            },
+            {
+              subpaso: "Inscripción en la CCSS",
+              detalle: [
+                "Registre la asociación en la CCSS para cumplir con las obligaciones laborales y sociales.",
+                "Complete el formulario de inscripción y presente la documentación requerida: personería jurídica, cédulas de los miembros del consejo directivo, etc.",
+                "Obtenga el número de patrono y mantenga al día los pagos de cargas sociales.",
+              ],
+              caveats: [
+                "El incumplimiento con la CCSS puede generar multas y afectar la reputación de la asociación.",
+              ],
+            },
+          ],
+        },
+        {
+          paso: "Mantener la Asociación Activa",
+          descripcion:
+            "Realice las gestiones necesarias para mantener la asociación activa y en cumplimiento de sus obligaciones legales y fiscales.",
+          documentos: [
+            "Certificados de cumplimiento tributario",
+            "Comprobante de pagos de la Caja Costarricense de Seguro Social (CCSS)",
+          ],
+          subpasos: [
+            {
+              subpaso: "Declaraciones Tributarias Mensuales",
+              detalle: [
+                "Visite el portal de ATV del Ministerio de Hacienda para presentar la declaración de impuestos: asegúrese de utilizar su número de cédula y contraseña para ingresar.",
+                "Complete la declaración con los ingresos y gastos del mes: asegúrese de tener todos los recibos y facturas organizados para facilitar este proceso.",
+                "Pague el impuesto correspondiente antes de la fecha límite (generalmente el último día del mes): puede realizar el pago a través de transferencia bancaria o en cualquier banco autorizado.",
+              ],
+            },
+            {
+              subpaso: "Pago de la Caja Costarricense de Seguro Social (CCSS)",
+              detalle: [
+                "Calcule las cargas sociales que debe pagar cada mes en base a los salarios pagados: este cálculo puede hacerlo a través del sistema en línea de la CCSS.",
+                "Visite el portal de la CCSS o un banco autorizado para realizar el pago de las cargas sociales: el pago debe hacerse antes del día 15 de cada mes.",
+                "Guarde el comprobante de pago como respaldo para futuras auditorías o revisiones.",
+              ],
+            },
+            {
+              subpaso: "Renovación de Permisos y Licencias",
+              detalle: [
+                "Revise las fechas de vencimiento del Permiso Sanitario y la patente municipal: estos permisos generalmente se deben renovar anualmente.",
+                "Visite la municipalidad y el Ministerio de Salud para presentar los documentos requeridos para la renovación: incluya una copia del permiso anterior y un comprobante de pago de impuestos municipales.",
+                "Pague las tarifas correspondientes y espere la aprobación de la renovación: asegúrese de guardar los comprobantes de pago y las nuevas licencias.",
+              ],
+              caveats: [
+                "Si no se renuevan los permisos a tiempo, la empresa podría enfrentar sanciones o incluso el cierre temporal.",
               ],
             },
           ],
