@@ -1805,7 +1805,7 @@ export default {
     {
       tipo: "Sociedad Civil",
       descripcion:
-        "Una empresa de tipo Sociedad Civil es una forma de organización empresarial en la que dos o más personas se asocian con el propósito de llevar a cabo actividades de naturaleza profesional o no comercial, es decir, actividades que no tienen fines mercantiles como objetivo principal. Es comúnmente utilizada por profesionales que desean unir sus esfuerzos para ofrecer servicios especializados, tales como abogados, arquitectos, médicos, contadores, ingenieros, entre otros. Esta sociedad puede generar lucro, pero siempre en beneficio de sus socios y no con fines comerciales directos. Según el Código Civil, esta figura se rige por los artículos 1196 y siguientes, los cuales establecen el marco legal de la sociedad civil y las reglas de administración, distribución de utilidades, y disolución (Artículo 1196, Código Civil)【36†source】.",
+        "Una empresa de tipo Sociedad Civil es una forma de organización empresarial en la que dos o más personas se asocian con el propósito de llevar a cabo actividades de naturaleza profesional o no comercial, es decir, actividades que no tienen fines mercantiles como objetivo principal. Es comúnmente utilizada por profesionales que desean unir sus esfuerzos para ofrecer servicios especializados, tales como abogados, arquitectos, médicos, contadores, ingenieros, entre otros. Esta sociedad puede generar lucro, pero siempre en beneficio de sus socios y no con fines comerciales directos. Según el Código Civil, esta figura se rige por los artículos 1196 y siguientes, los cuales establecen el marco legal de la sociedad civil y las reglas de administración, distribución de utilidades, y disolución (Artículo 1196, Código Civil).",
       pasos: [
         {
           paso: "Definir Nombre de la Sociedad",
@@ -1821,7 +1821,7 @@ export default {
                 "Considere varias opciones de nombre en caso de que el primero no esté disponible.",
               ],
               caveats: [
-                "El nombre elegido no debe ser idéntico o similar a otro ya registrado para evitar conflictos legales (Artículo 1196, Código Civil)【36†source】.",
+                "El nombre elegido no debe ser idéntico o similar a otro ya registrado para evitar conflictos legales (Artículo 1196, Código Civil).",
               ],
             },
             {
@@ -1857,11 +1857,11 @@ export default {
             {
               subpaso: "Incluir cláusulas esenciales en el contrato",
               detalle: [
-                "Detallar el objeto social o actividad principal de la sociedad (debe ser una actividad no comercial según los artículos 5 y 17 del Código de Comercio)【36†source】.",
+                "Detallar el objeto social o actividad principal de la sociedad (debe ser una actividad no comercial según los artículos 5 y 17 del Código de Comercio).",
                 "Especificar las aportaciones de cada socio, ya sean en dinero, bienes o servicios.",
                 "Establecer la forma de administración y representación de la sociedad.",
-                "Definir la distribución de utilidades y pérdidas entre los socios (Artículo 1196, Código Civil)【36†source】.",
-                "Incluir cláusulas sobre la disolución y liquidación de la sociedad (Artículo 1196, Código Civil)【36†source】.",
+                "Definir la distribución de utilidades y pérdidas entre los socios (Artículo 1196, Código Civil).",
+                "Incluir cláusulas sobre la disolución y liquidación de la sociedad (Artículo 1196, Código Civil).",
               ],
               caveats: [
                 "Es fundamental que todas las cláusulas sean claras para evitar malentendidos futuros entre los socios.",
@@ -1876,7 +1876,7 @@ export default {
                 "Solicitar copias certificadas del contrato para cada socio y para trámites posteriores.",
               ],
               caveats: [
-                "La protocolización del contrato ante notario es necesaria para otorgarle validez legal (Artículo 1196, Código Civil)【36†source】.",
+                "La protocolización del contrato ante notario es necesaria para otorgarle validez legal (Artículo 1196, Código Civil).",
               ],
             },
           ],

@@ -6,7 +6,8 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public --no-clear"
+    "start": "sirv public --no-clear",
+    "upload": "git add -A && git reset .vercel && git reset node_modules && git commit -m \"db update\" && git push origin main"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.0",
