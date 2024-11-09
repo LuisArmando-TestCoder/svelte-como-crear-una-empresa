@@ -157,11 +157,11 @@
           </p>
         </div>
 
-        {#if empresaData.tipos[$selectedEmpresaIndex].pasos[$currentStep].subpasos[$currentSubStep].caveats?.length > 0}
-          <div class="caveats">
-            <strong>Caveats:</strong>
+        {#if empresaData.tipos[$selectedEmpresaIndex].pasos[$currentStep].subpasos[$currentSubStep].advertencias?.length > 0}
+          <div class="advertencias">
+            <strong>Advertencias:</strong>
             <ul>
-              {#each empresaData.tipos[$selectedEmpresaIndex].pasos[$currentStep].subpasos[$currentSubStep].caveats as caveat}
+              {#each empresaData.tipos[$selectedEmpresaIndex].pasos[$currentStep].subpasos[$currentSubStep].advertencias as caveat}
                 <li>{caveat}</li>
               {/each}
             </ul>
@@ -255,7 +255,7 @@
     line-height: 1.5;
   }
 
-  .caveats {
+  .advertencias {
     margin-top: 1rem;
     font-size: 1rem;
     color: #d9534f;

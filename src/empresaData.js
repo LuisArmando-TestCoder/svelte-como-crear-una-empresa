@@ -20,7 +20,7 @@ export default {
                 "Contacte a posibles clientes para comprender sus necesidades y asegúrese de tener preparada una lista de preguntas claras: haga preguntas específicas como '¿Qué problemas enfrenta actualmente que este producto podría resolver?' y anote las respuestas para ajustar su propuesta de valor.",
                 "Prepare una descripción detallada del producto o servicio, destacando sus beneficios: utilice un lenguaje sencillo y enfocado en los beneficios clave, como el ahorro de tiempo o el aumento de eficiencia.",
               ],
-              caveats: [
+              advertencias: [
                 "Asegúrese de que la actividad comercial no esté limitada por ninguna disposición legal y cumpla con las normativas locales.",
               ],
             },
@@ -59,7 +59,7 @@ export default {
                 "Prepare la información básica como nombre completo, número de cédula, dirección y detalles de la actividad comercial: tenga a mano su cédula y cualquier otra identificación pertinente para facilitar el proceso.",
                 "Revise cuidadosamente los campos requeridos antes de enviar el formulario para evitar errores: compare los datos ingresados con sus documentos oficiales para asegurar la exactitud.",
               ],
-              caveats: [
+              advertencias: [
                 "Es fundamental realizar la inscripción en el Registro Mercantil antes de la inscripción tributaria, ya que este es un requisito previo para operar legalmente.",
               ],
             },
@@ -99,7 +99,7 @@ export default {
                 "Complete la información requerida, incluyendo la descripción detallada de las instalaciones de la empresa: asegúrese de incluir detalles sobre la infraestructura, medidas de seguridad y protocolos sanitarios.",
                 "Prepare la información sobre el uso del inmueble y adjude el contrato de arrendamiento si corresponde: tenga una copia digital del contrato lista para ser subida al formulario.",
               ],
-              caveats: [
+              advertencias: [
                 "El uso del inmueble debe estar acorde con las regulaciones municipales y cumplir con las normativas de salud y seguridad requeridas para la actividad comercial.",
               ],
             },
@@ -163,7 +163,7 @@ export default {
                 "Visite la municipalidad y el Ministerio de Salud para presentar los documentos requeridos para la renovación: incluya una copia del permiso anterior y un comprobante de pago de impuestos municipales.",
                 "Pague las tarifas correspondientes y espere la aprobación de la renovación: asegúrese de guardar los comprobantes de pago y las nuevas licencias.",
               ],
-              caveats: [
+              advertencias: [
                 "Si no se renuevan los permisos a tiempo, la empresa podría enfrentar sanciones o incluso el cierre temporal.",
               ],
             },
@@ -189,7 +189,7 @@ export default {
                 "Busque la opción de consulta de nombres de sociedades: puede utilizar la barra de navegación o la sección de 'Trámites en Línea'.",
                 "Asegúrese de que el nombre deseado no esté registrado por otra empresa: intente varias alternativas por si el nombre deseado ya está tomado.",
               ],
-              caveats: [
+              advertencias: [
                 "El nombre debe ser único y no prestarse a confusión con otras sociedades existentes. Asegúrese de cumplir con las normas establecidas para la denominación de sociedades en el Registro Nacional (Artículo 246 del Código de Comercio).",
               ],
             },
@@ -228,7 +228,7 @@ export default {
                 "Contacte al abogado y programe una reunión para discutir los detalles de la sociedad: prepare una lista de preguntas sobre el proceso y costos involucrados.",
                 "Asegúrese de llevar información de los accionistas, incluyendo nombres completos y copias de identificación: confirme que cada accionista tenga sus documentos en regla.",
               ],
-              caveats: [
+              advertencias: [
                 "Es obligatorio que el acta constitutiva esté autenticada por un notario público para que tenga validez legal (Artículo 102 del Código de Comercio).",
               ],
             },
@@ -240,7 +240,7 @@ export default {
                 "Defina el monto del capital social y cómo será distribuido: asegúrese de que todos los accionistas estén de acuerdo con la distribución propuesta.",
                 "Incluya la información de contacto de cada socio y sus responsabilidades: verifique que cada socio entienda sus responsabilidades y esté dispuesto a cumplirlas.",
               ],
-              caveats: [
+              advertencias: [
                 "Asegúrese de que el capital social mínimo cumpla con los requisitos legales establecidos para sociedades anónimas (Artículo 5 del Código de Comercio).",
               ],
             },
@@ -271,7 +271,7 @@ export default {
                 "Complete toda la información requerida sobre los accionistas y la empresa: asegúrese de que los datos sean precisos.",
                 "Adjunte todos los documentos necesarios, incluyendo el acta constitutiva autenticada y la certificación de nombre.",
               ],
-              caveats: [
+              advertencias: [
                 "Todos los documentos presentados deben ser originales o copias autenticadas para evitar demoras en el proceso de inscripción (Artículo 235 del Código de Comercio).",
               ],
             },
@@ -310,7 +310,7 @@ export default {
                 "Reúnase con los socios para acordar los términos de los estatutos y asegurarse de que todos estén de acuerdo con las condiciones establecidas.",
                 "Una vez aprobados, firme los estatutos ante un notario público para darles validez legal.",
               ],
-              caveats: [
+              advertencias: [
                 "Los estatutos deben cumplir con todas las disposiciones legales y ser inscritos correctamente en el Registro Nacional para evitar problemas legales futuros (Artículo 107 del Código de Comercio).",
               ],
             },
@@ -340,7 +340,7 @@ export default {
                 "Adjunte los documentos requeridos, como la cédula del representante legal y la escritura de constitución.",
                 "Espere la confirmación del registro y obtenga el NIT, que se usará para todos los trámites tributarios.",
               ],
-              caveats: [
+              advertencias: [
                 "El NIT es obligatorio para cualquier actividad comercial de la sociedad y debe ser obtenido antes de iniciar operaciones.",
               ],
             },
@@ -363,7 +363,7 @@ export default {
                 "Solicite una cita para la apertura de la cuenta: explique que se trata de una sociedad anónima recién constituida y que necesita una cuenta para sus operaciones.",
                 "Prepare los documentos requeridos y preséntese el día de la cita en la sucursal bancaria seleccionada.",
               ],
-              caveats: [
+              advertencias: [
                 "Cada banco tiene sus propios requisitos para la apertura de cuentas corporativas. Consulte previamente para asegurarse de cumplir con todos los requisitos.",
               ],
             },
@@ -393,7 +393,7 @@ export default {
                 "Complete la declaración con los ingresos y gastos de la sociedad: tenga a mano los libros contables y facturas.",
                 "Pague el impuesto antes de la fecha límite para evitar multas: puede realizar el pago en línea o en un banco autorizado.",
               ],
-              caveats: [
+              advertencias: [
                 "El incumplimiento de las obligaciones fiscales puede resultar en sanciones y multas, así como la suspensión del NIT.",
               ],
             },
@@ -404,7 +404,7 @@ export default {
                 "Realice el pago de las cargas sociales antes del día 15 de cada mes: puede hacer el pago en línea o en un banco autorizado.",
                 "Guarde el comprobante del pago como respaldo para auditorías.",
               ],
-              caveats: [
+              advertencias: [
                 "El no pago de las cargas sociales puede generar multas y restricciones para operar legalmente.",
               ],
             },
@@ -415,7 +415,7 @@ export default {
                 "Visite la municipalidad y el Ministerio de Salud para renovar los permisos: presente el comprobante de pago de impuestos y otros documentos requeridos.",
                 "Pague las tarifas correspondientes y guarde los comprobantes.",
               ],
-              caveats: [
+              advertencias: [
                 "El no renovar los permisos y licencias a tiempo puede llevar a la suspensión de la actividad comercial de la sociedad.",
               ],
             },
@@ -426,7 +426,7 @@ export default {
                 "Presente el reporte anual de ingresos y gastos al Ministerio de Hacienda antes del 31 de marzo: esto se puede hacer a través del portal ATV o con ayuda del contador.",
                 "Asegúrese de cumplir con todas las normativas contables y fiscales para evitar sanciones.",
               ],
-              caveats: [
+              advertencias: [
                 "Los reportes financieros deben cumplir con las Normas Internacionales de Información Financiera (NIIF) para evitar problemas legales y garantizar la transparencia.",
               ],
             },
@@ -452,7 +452,7 @@ export default {
                 "Busque la opción de consulta de nombres de sociedades: puede utilizar la barra de navegación o la sección de 'Trámites en Línea'.",
                 "Asegúrese de que el nombre deseado no esté registrado por otra empresa: intente varias alternativas por si el nombre deseado ya está tomado.",
               ],
-              caveats: [
+              advertencias: [
                 "El nombre de la empresa no debe ser igual o similar a uno ya registrado, para evitar problemas legales o de confusión en el mercado. El nombre debe estar constituido por letras y puede abreviarse 'Ltda' o 'S.R.L.' según los estatutos sociales (Artículo 39 del Código de Comercio)&#8203;:contentReference[oaicite:0]{index=0}.",
               ],
             },
@@ -488,7 +488,7 @@ export default {
                 "Contacte al abogado y programe una reunión para discutir los detalles de la sociedad: prepare una lista de preguntas sobre el proceso y costos involucrados.",
                 "Asegúrese de llevar información de los socios, incluyendo nombres completos y copias de identificación: confirme que cada socio tenga sus documentos en regla.",
               ],
-              caveats: [
+              advertencias: [
                 "Es obligatorio que el pacto social sea redactado por un abogado especializado en derecho corporativo para garantizar el cumplimiento de la legislación vigente.",
               ],
             },
@@ -500,7 +500,7 @@ export default {
                 "Defina el monto del capital social y cómo será distribuido: asegúrese de que todos los socios estén de acuerdo con la distribución propuesta. El capital está dividido en cuotas nominativas no transferibles sin la aprobación de la Asamblea de Cuotistas (Artículo 39 del Código de Comercio)&#8203;:contentReference[oaicite:1]{index=1}.",
                 "Incluya la información de contacto de cada socio y sus responsabilidades: verifique que cada socio entienda sus responsabilidades y esté dispuesto a cumplirlas.",
               ],
-              caveats: [
+              advertencias: [
                 "El capital social debe ser suficiente para cubrir las responsabilidades iniciales de la sociedad, y todos los socios deben estar de acuerdo con la distribución.",
               ],
             },
@@ -511,7 +511,7 @@ export default {
                 "Asegúrese de que todos los socios estén presentes y lleven identificación: revise los requisitos del notario para asegurarse de cumplirlos.",
                 "El notario autenticará las firmas y dará fe de la validez del documento: solicite una copia certificada del documento para cada socio.",
               ],
-              caveats: [
+              advertencias: [
                 "La firma ante notario es esencial para darle validez legal al pacto social y garantizar que todos los socios estén debidamente representados.",
               ],
             },
@@ -534,7 +534,7 @@ export default {
                 "Complete toda la información requerida sobre los socios y la empresa: asegúrese de que los datos sean precisos.",
                 "Adjunte todos los documentos necesarios, incluyendo el pacto social autenticado y la certificación de nombre.",
               ],
-              caveats: [
+              advertencias: [
                 "Es imprescindible adjuntar todos los documentos requeridos para evitar demoras en el proceso de inscripción.",
               ],
             },
@@ -545,7 +545,7 @@ export default {
                 "Pague las tarifas correspondientes al registro de la sociedad: conserve el recibo de pago como comprobante.",
                 "Espere la revisión de la documentación por parte del Registro Nacional: ellos le indicarán si hay algún problema o si se requiere algún documento adicional.",
               ],
-              caveats: [
+              advertencias: [
                 "El registro no será efectivo hasta que se paguen todas las tarifas correspondientes y se presente toda la documentación requerida.",
               ],
             },
@@ -634,7 +634,7 @@ export default {
                 "Defina la misión y visión: asegúrese de que estén alineadas con los principios cooperativos y que reflejen los intereses de los miembros.",
                 "Documente la misión, visión y objetivos: esto servirá de base para la redacción de los estatutos de la cooperativa.",
               ],
-              caveats: [
+              advertencias: [
                 "La misión y visión deben alinearse con los principios cooperativos para asegurar la coherencia y el compromiso de todos los miembros. Además, deben cumplir con la normativa del Código de Comercio para evitar problemas legales.",
               ],
             },
@@ -645,7 +645,7 @@ export default {
                 "Incluya información sobre el proceso de toma de decisiones y estructura de la cooperativa: asegúrese de que todos los miembros entiendan y aprueben estos estatutos.",
                 "Revise y finalice los estatutos con el abogado y los miembros fundadores: todos deben estar de acuerdo con los términos antes de proceder.",
               ],
-              caveats: [
+              advertencias: [
                 "Es importante que los estatutos reflejen claramente los derechos y responsabilidades de los miembros para evitar futuros conflictos. Además, deben cumplir con los requisitos establecidos en el Código de Comercio para su validez legal.",
               ],
             },
@@ -667,7 +667,7 @@ export default {
                 "Elabore la agenda de la asamblea: incluya puntos clave como la aprobación de los estatutos y la elección de la junta directiva.",
                 "Asegúrese de contar con quórum para tomar decisiones: verifique cuántos miembros son necesarios para cumplir con los requisitos legales.",
               ],
-              caveats: [
+              advertencias: [
                 "Es esencial contar con quórum en la asamblea constitutiva para que las decisiones tomadas tengan validez legal, tal como lo exige el Código de Comercio.",
               ],
             },
@@ -678,7 +678,7 @@ export default {
                 "Todos los miembros fundadores deben firmar los estatutos: coordine con un notario para que autentique las firmas y asegure la validez del documento.",
                 "El notario debe emitir una copia certificada del acta de la asamblea: guarde este documento como evidencia de la constitución de la cooperativa.",
               ],
-              caveats: [
+              advertencias: [
                 "La firma ante notario es necesaria para garantizar la validez legal de los estatutos y la constitución de la cooperativa, conforme a lo estipulado en el Código de Comercio.",
               ],
             },
@@ -701,7 +701,7 @@ export default {
                 "Asegúrese de que todos los documentos estén en regla y cumplan con los requisitos legales: consulte con el notario si tiene alguna duda.",
                 "Realice copias adicionales de todos los documentos: algunas oficinas del Registro Nacional pueden solicitar copias adicionales.",
               ],
-              caveats: [
+              advertencias: [
                 "Es importante asegurarse de que todos los documentos estén en regla para evitar retrasos en el proceso de inscripción, según lo estipulado en el Reglamento del Registro de Transparencia y Beneficiarios Finales.",
               ],
             },
@@ -712,7 +712,7 @@ export default {
                 "Complete el formulario de inscripción y adjunte los documentos necesarios: asegúrese de llenar correctamente todos los campos.",
                 "Pague las tarifas correspondientes al registro de la cooperativa: guarde el recibo de pago como comprobante.",
               ],
-              caveats: [
+              advertencias: [
                 "El registro no será efectivo hasta que se presenten todos los documentos requeridos y se paguen las tarifas correspondientes.",
               ],
             },
@@ -739,7 +739,7 @@ export default {
                 "Adjunte una copia de la personería jurídica de la cooperativa: asegúrese de que la copia esté actualizada y sea legible.",
                 "Prepare una lista de los miembros y sus funciones dentro de la cooperativa: INFOCOOP requiere esta información para el registro.",
               ],
-              caveats: [
+              advertencias: [
                 "Es importante que todos los documentos estén actualizados y que la información proporcionada sea precisa para evitar rechazos en la solicitud de afiliación.",
               ],
             },
@@ -750,7 +750,7 @@ export default {
                 "Entregue toda la documentación requerida y asegúrese de recibir un comprobante de recepción.",
                 "Espere la respuesta de INFOCOOP sobre la afiliación: el instituto puede requerir información adicional o una visita a la cooperativa.",
               ],
-              caveats: [
+              advertencias: [
                 "INFOCOOP puede solicitar información adicional o una visita a la cooperativa, por lo que es importante estar preparado para cumplir con estos requisitos.",
               ],
             },
@@ -781,7 +781,7 @@ export default {
                 "Complete la declaración con los ingresos y gastos del mes: asegúrese de tener todos los recibos y facturas organizados para facilitar este proceso.",
                 "Pague el impuesto correspondiente antes de la fecha límite (generalmente el último día del mes): puede realizar el pago a través de transferencia bancaria o en cualquier banco autorizado.",
               ],
-              caveats: [
+              advertencias: [
                 "El pago puntual de los impuestos es esencial para evitar sanciones y mantener la cooperativa en regla con las autoridades fiscales.",
               ],
             },
@@ -792,7 +792,7 @@ export default {
                 "Visite el portal de la CCSS o un banco autorizado para realizar el pago de las cargas sociales: el pago debe hacerse antes del día 15 de cada mes.",
                 "Guarde el comprobante de pago como respaldo para futuras auditorías o revisiones.",
               ],
-              caveats: [
+              advertencias: [
                 "El pago de la CCSS es obligatorio para garantizar los beneficios sociales de los miembros y empleados, y evitar sanciones legales.",
               ],
             },
@@ -803,7 +803,7 @@ export default {
                 "Visite la municipalidad y el Ministerio de Salud para presentar los documentos requeridos para la renovación: incluya una copia del permiso anterior y un comprobante de pago de impuestos municipales.",
                 "Pague las tarifas correspondientes y espere la aprobación de la renovación: asegúrese de guardar los comprobantes de pago y las nuevas licencias.",
               ],
-              caveats: [
+              advertencias: [
                 "No renovar los permisos y licencias a tiempo puede resultar en multas y en la suspensión de actividades de la cooperativa.",
               ],
             },
@@ -814,7 +814,7 @@ export default {
                 "Levante un acta de la asamblea y haga que todos los miembros la firmen: este documento es necesario para registrar cualquier decisión oficial tomada durante la reunión.",
                 "Si se requiere una asamblea extraordinaria para decisiones urgentes, notifique a los miembros y registre las decisiones en un acta: mantenga estos registros en un lugar seguro.",
               ],
-              caveats: [
+              advertencias: [
                 "Las asambleas ordinarias y extraordinarias son obligatorias para la toma de decisiones importantes y deben ser debidamente registradas.",
               ],
             },
@@ -825,7 +825,7 @@ export default {
                 "Prepare el reporte anual de ingresos y gastos: asegúrese de incluir todas las facturas y recibos de cada transacción durante el año.",
                 "Presente el reporte anual al Ministerio de Hacienda antes del 31 de marzo: esto se puede hacer a través del portal ATV o directamente con la ayuda del contador.",
               ],
-              caveats: [
+              advertencias: [
                 "La presentación de los reportes financieros anuales es obligatoria y debe ser precisa para evitar sanciones fiscales.",
               ],
             },
@@ -851,7 +851,7 @@ export default {
                 "Busque la opción de consulta de nombres de sociedades: puede utilizar la barra de navegación o la sección de 'Trámites en Línea'.",
                 "Asegúrese de que el nombre deseado no esté registrado por otra empresa: intente varias alternativas por si el nombre deseado ya está tomado.",
               ],
-              caveats: [
+              advertencias: [
                 "El nombre de la empresa no debe ser igual o similar a uno ya registrado, para evitar problemas legales o de confusión en el mercado (Artículo 7 del Código de Comercio).",
               ],
             },
@@ -890,7 +890,7 @@ export default {
                 "Programe una reunión para discutir los detalles de la sociedad: prepare información sobre los socios y el capital que aportará cada uno.",
                 "Asegúrese de llevar documentos de identificación de todos los socios: cédulas de identidad o pasaportes vigentes.",
               ],
-              caveats: [
+              advertencias: [
                 "La asesoría legal es esencial para garantizar que la escritura cumpla con todas las regulaciones legales aplicables (Artículo 67 del Código de Comercio).",
               ],
             },
@@ -902,7 +902,7 @@ export default {
                 "Especificar el capital aportado por cada socio: detallar las aportaciones en dinero o en especie.",
                 "Definir la administración de la sociedad: generalmente, los socios colectivos administran la sociedad.",
               ],
-              caveats: [
+              advertencias: [
                 "Es importante que todos los socios comprendan sus roles y responsabilidades dentro de la sociedad para evitar conflictos futuros.",
               ],
             },
@@ -913,7 +913,7 @@ export default {
                 "Todos los socios deben presentar su identificación vigente al momento de la firma.",
                 "El notario dará fe de la autenticidad de las firmas y la validez del documento: solicite copias certificadas para cada socio.",
               ],
-              caveats: [
+              advertencias: [
                 "La firma ante notario es obligatoria para que la escritura tenga validez legal (Artículo 68 del Código de Comercio).",
               ],
             },
@@ -936,7 +936,7 @@ export default {
                 "Complete la información requerida sobre la sociedad y los socios: asegúrese de la exactitud de los datos.",
                 "Adjunte los documentos necesarios, incluyendo la escritura autenticada y la certificación de nombre.",
               ],
-              caveats: [
+              advertencias: [
                 "La omisión de información o documentos puede retrasar el proceso de inscripción.",
               ],
             },
@@ -947,7 +947,7 @@ export default {
                 "Pague las tarifas correspondientes al registro de la sociedad: guarde el comprobante de pago.",
                 "Espere la revisión y aprobación de la documentación: el Registro Nacional notificará si hay observaciones o si se requiere información adicional.",
               ],
-              caveats: [
+              advertencias: [
                 "El registro no será efectivo hasta que se completen todos los requisitos y se realicen los pagos correspondientes.",
               ],
             },
@@ -978,7 +978,7 @@ export default {
                 "Adjunte los documentos requeridos: personería jurídica y cédula del representante legal.",
                 "Espere la confirmación del registro y obtenga el NIT para trámites tributarios.",
               ],
-              caveats: [
+              advertencias: [
                 "El NIT es indispensable para cualquier actividad comercial y tributaria de la sociedad.",
               ],
             },
@@ -1009,7 +1009,7 @@ export default {
                 "Presente todos los documentos requeridos: escritura de constitución, personería jurídica y cédula del representante legal.",
                 "Complete los formularios proporcionados por el banco y realice el depósito inicial si es necesario.",
               ],
-              caveats: [
+              advertencias: [
                 "Asegúrese de entender las condiciones y obligaciones asociadas con la cuenta bancaria empresarial.",
               ],
             },
@@ -1032,7 +1032,7 @@ export default {
                 "Adjunte los documentos requeridos: planos del local, certificaciones, etc.",
                 "Presente la solicitud en la oficina regional correspondiente y pague las tasas aplicables.",
               ],
-              caveats: [
+              advertencias: [
                 "El permiso es obligatorio para actividades que puedan afectar la salud pública.",
               ],
             },
@@ -1043,7 +1043,7 @@ export default {
                 "Complete el formulario de solicitud y adjunte los documentos necesarios: permiso del Ministerio de Salud, personería jurídica, etc.",
                 "Pague las tarifas correspondientes y espere la aprobación de la patente.",
               ],
-              caveats: [
+              advertencias: [
                 "Operar sin patente municipal puede resultar en sanciones y cierre del establecimiento.",
               ],
             },
@@ -1054,7 +1054,7 @@ export default {
                 "Complete el formulario de inscripción y presente la documentación requerida: personería jurídica, cédulas de los socios, etc.",
                 "Obtenga el número de patrono y mantenga al día los pagos de cargas sociales.",
               ],
-              caveats: [
+              advertencias: [
                 "El incumplimiento con la CCSS puede generar multas y afectar la reputación de la empresa.",
               ],
             },
@@ -1077,7 +1077,7 @@ export default {
                 "Utilice el portal ATV del Ministerio de Hacienda para realizar las declaraciones en línea.",
                 "Mantenga registros contables actualizados para facilitar el proceso.",
               ],
-              caveats: [
+              advertencias: [
                 "El atraso o incumplimiento en las declaraciones puede generar multas y recargos.",
               ],
             },
@@ -1104,7 +1104,7 @@ export default {
                 "Presente la documentación correspondiente y pague las tasas requeridas.",
                 "Mantenga la información de la sociedad actualizada para evitar problemas legales.",
               ],
-              caveats: [
+              advertencias: [
                 "La falta de actualización puede resultar en sanciones y complicaciones legales.",
               ],
             },
@@ -1130,7 +1130,7 @@ export default {
                 "Busque la opción de consulta de nombres de sociedades: puede utilizar la barra de navegación o la sección de 'Trámites en Línea'.",
                 "Asegúrese de que el nombre deseado no esté registrado por otra empresa: intente varias alternativas por si el nombre deseado ya está tomado.",
               ],
-              caveats: [
+              advertencias: [
                 "El nombre de la empresa no debe ser igual o similar a uno ya registrado, para evitar problemas legales o de confusión en el mercado.",
               ],
             },
@@ -1169,7 +1169,7 @@ export default {
                 "Programe una reunión para discutir los detalles de la sociedad: prepare una lista de preguntas sobre el proceso y costos involucrados.",
                 "Asegúrese de llevar información de los socios, incluyendo nombres completos y copias de identificación: distinga entre socios comanditados y comanditarios.",
               ],
-              caveats: [
+              advertencias: [
                 "La escritura pública debe ser redactada por un abogado para garantizar el cumplimiento de la legislación vigente y especificar claramente las responsabilidades de los socios.",
               ],
             },
@@ -1181,7 +1181,7 @@ export default {
                 "Defina la cantidad de acciones y la participación de cada socio comanditario: establezca cómo se dividirán las ganancias y responsabilidades.",
                 "Determine el capital social y cómo será aportado: asegúrese de que todos los socios estén de acuerdo con la distribución propuesta.",
               ],
-              caveats: [
+              advertencias: [
                 "Es fundamental que los roles y responsabilidades de cada tipo de socio estén claramente definidos para evitar conflictos futuros.",
               ],
             },
@@ -1192,7 +1192,7 @@ export default {
                 "Asegúrese de que todos los socios estén presentes y lleven identificación: revise los requisitos del notario para asegurarse de cumplirlos.",
                 "El notario autenticará las firmas y dará fe de la validez del documento: solicite copias certificadas para cada socio.",
               ],
-              caveats: [
+              advertencias: [
                 "La firma ante notario es esencial para darle validez legal a la escritura pública y garantizar que todos los socios estén debidamente representados.",
               ],
             },
@@ -1215,7 +1215,7 @@ export default {
                 "Complete toda la información requerida sobre los socios y la empresa: asegúrese de que los datos sean precisos.",
                 "Adjunte todos los documentos necesarios, incluyendo la escritura pública autenticada y la certificación de nombre.",
               ],
-              caveats: [
+              advertencias: [
                 "Es imprescindible adjuntar todos los documentos requeridos para evitar demoras en el proceso de inscripción.",
               ],
             },
@@ -1226,7 +1226,7 @@ export default {
                 "Pague las tarifas correspondientes al registro de la sociedad: conserve el recibo de pago como comprobante.",
                 "Espere la revisión de la documentación por parte del Registro Nacional: le indicarán si hay algún problema o si se requiere algún documento adicional.",
               ],
-              caveats: [
+              advertencias: [
                 "El registro no será efectivo hasta que se paguen todas las tarifas correspondientes y se presente toda la documentación requerida.",
               ],
             },
@@ -1257,7 +1257,7 @@ export default {
                 "Reúnase con los socios para acordar los términos de los estatutos y asegurarse de que todos estén de acuerdo con las condiciones establecidas.",
                 "Una vez aprobados, firme los estatutos ante un notario público para darles validez legal.",
               ],
-              caveats: [
+              advertencias: [
                 "Es crucial que los estatutos sean claros y precisos, ya que definirán las reglas internas de la sociedad y evitarán posibles conflictos futuros.",
               ],
             },
@@ -1268,7 +1268,7 @@ export default {
                 "Complete el formulario de inscripción y pague las tasas correspondientes al registro de la sociedad.",
                 "Espere la confirmación del Registro Nacional y guarde el documento de personería jurídica.",
               ],
-              caveats: [
+              advertencias: [
                 "El registro de la escritura y los estatutos debe ser realizado de forma oportuna para que la sociedad sea reconocida legalmente.",
 
                 "Ingrese a la página oficial del Registro Nacional: asegúrese de que el sitio web sea legítimo y seguro.",
@@ -1297,7 +1297,7 @@ export default {
                 "Busque la opción de consulta de nombres de sociedades: puede utilizar la barra de navegación o la sección de 'Trámites en Línea'.",
                 "Asegúrese de que el nombre deseado no esté registrado por otra empresa: intente varias alternativas por si el nombre deseado ya está tomado.",
               ],
-              caveats: [
+              advertencias: [
                 "El nombre de la empresa no debe ser igual o similar a uno ya registrado, para evitar problemas legales o de confusión en el mercado.",
               ],
             },
@@ -1333,7 +1333,7 @@ export default {
                 "Contacte al abogado y programe una reunión para discutir los detalles de la sociedad: prepare una lista de preguntas sobre el proceso y costos involucrados.",
                 "Asegúrese de llevar información de los socios, incluyendo nombres completos y copias de identificación: confirme que cada socio tenga sus documentos en regla.",
               ],
-              caveats: [
+              advertencias: [
                 "Es obligatorio que el contrato social sea redactado por un abogado especializado en derecho mercantil, para garantizar el cumplimiento de la legislación vigente.",
               ],
             },
@@ -1345,7 +1345,7 @@ export default {
                 "Defina el monto del capital aportado por cada socio y cómo será administrado: asegúrese de que todos los socios estén de acuerdo con la distribución propuesta.",
                 "Incluya la información de contacto de cada socio y sus responsabilidades: verifique que cada socio entienda sus responsabilidades y esté dispuesto a cumplirlas.",
               ],
-              caveats: [
+              advertencias: [
                 "Todos los socios tienen responsabilidad ilimitada y solidaria en una Sociedad en Nombre Colectivo, por lo que es esencial que estén de acuerdo con las condiciones establecidas (Art. 39 del Código de Comercio).",
               ],
             },
@@ -1356,7 +1356,7 @@ export default {
                 "Asegúrese de que todos los socios estén presentes y lleven identificación: revise los requisitos del notario para asegurarse de cumplirlos.",
                 "El notario autenticará las firmas y dará fe de la validez del documento: solicite una copia certificada del documento para cada socio.",
               ],
-              caveats: [
+              advertencias: [
                 "La firma ante notario es esencial para darle validez legal al contrato social y garantizar que todos los socios estén debidamente representados.",
               ],
             },
@@ -1379,7 +1379,7 @@ export default {
                 "Complete toda la información requerida sobre los socios y la empresa: asegúrese de que los datos sean precisos.",
                 "Adjunte todos los documentos necesarios, incluyendo el contrato social autenticado y la certificación de nombre.",
               ],
-              caveats: [
+              advertencias: [
                 "Es imprescindible adjuntar todos los documentos requeridos para evitar demoras en el proceso de inscripción.",
               ],
             },
@@ -1390,7 +1390,7 @@ export default {
                 "Pague las tarifas correspondientes al registro de la sociedad: conserve el recibo de pago como comprobante.",
                 "Espere la revisión de la documentación por parte del Registro Nacional: ellos le indicarán si hay algún problema o si se requiere algún documento adicional.",
               ],
-              caveats: [
+              advertencias: [
                 "El registro no será efectivo hasta que se paguen todas las tarifas correspondientes y se presente toda la documentación requerida.",
               ],
             },
@@ -1420,7 +1420,7 @@ export default {
                 "Adjunte los documentos requeridos, como las cédulas de los socios y el contrato social.",
                 "Espere la confirmación del registro y obtenga el NIT, que se usará para todos los trámites tributarios.",
               ],
-              caveats: [
+              advertencias: [
                 "El NIT es fundamental para cualquier transacción tributaria y debe obtenerse antes de realizar actividades comerciales.",
               ],
             },
@@ -1443,7 +1443,7 @@ export default {
                 "Solicite una cita para la apertura de la cuenta: explique que se trata de una Sociedad en Nombre Colectivo recién constituida y que necesita una cuenta para sus operaciones.",
                 "Prepare los documentos requeridos y preséntese el día de la cita en la sucursal bancaria seleccionada.",
               ],
-              caveats: [
+              advertencias: [
                 "Es importante seleccionar un banco que ofrezca productos financieros adecuados para el tipo de actividad que realizará la sociedad.",
               ],
             },
@@ -1473,7 +1473,7 @@ export default {
                 "Complete los formularios requeridos y pague las tarifas correspondientes.",
                 "Espere la inspección y aprobación por parte del Ministerio de Salud.",
               ],
-              caveats: [
+              advertencias: [
                 "Operar sin el permiso de funcionamiento puede resultar en sanciones y cierre del establecimiento.",
               ],
             },
@@ -1484,7 +1484,7 @@ export default {
                 "Proporcione la documentación requerida, que puede incluir la personería jurídica, contrato social y permiso de funcionamiento.",
                 "Pague las tarifas correspondientes y espere la emisión de la patente.",
               ],
-              caveats: [
+              advertencias: [
                 "La patente municipal es obligatoria para realizar actividades comerciales en la jurisdicción correspondiente.",
               ],
             },
@@ -1506,7 +1506,7 @@ export default {
                 "Complete la declaración con los ingresos y gastos de la sociedad: tenga a mano los libros contables y facturas.",
                 "Pague el impuesto antes de la fecha límite para evitar multas: puede realizar el pago en línea o en un banco autorizado.",
               ],
-              caveats: [
+              advertencias: [
                 "Es fundamental realizar las declaraciones tributarias a tiempo para evitar sanciones económicas y posibles problemas legales.",
               ],
             },
@@ -1517,7 +1517,7 @@ export default {
                 "Realice el pago de las cargas sociales antes del día 15 de cada mes: puede hacer el pago en línea o en un banco autorizado.",
                 "Guarde el comprobante del pago como respaldo para auditorías.",
               ],
-              caveats: [
+              advertencias: [
                 "El pago puntual de la CCSS es obligatorio para evitar sanciones y garantizar los beneficios sociales a los empleados.",
               ],
             },
@@ -1528,7 +1528,7 @@ export default {
                 "Visite la municipalidad y el Ministerio de Salud para renovar los permisos: presente el comprobante de pago de impuestos y otros documentos requeridos.",
                 "Pague las tarifas correspondientes y guarde los comprobantes.",
               ],
-              caveats: [
+              advertencias: [
                 "No renovar los permisos y licencias a tiempo puede resultar en multas y posibles sanciones, incluyendo la suspensión de actividades.",
               ],
             },
@@ -1539,7 +1539,7 @@ export default {
                 "Presente el reporte anual de ingresos y gastos al Ministerio de Hacienda antes del 31 de marzo: esto se puede hacer a través del portal ATV o con ayuda del contador.",
                 "Asegúrese de cumplir con todas las normativas contables y fiscales para evitar sanciones.",
               ],
-              caveats: [
+              advertencias: [
                 "La presentación de reportes financieros anuales es obligatoria y debe ser precisa para evitar sanciones por parte de las autoridades fiscales.",
               ],
             },
@@ -1565,7 +1565,7 @@ export default {
                 "Utilice la herramienta de búsqueda para verificar si el nombre deseado está disponible: ingrese variantes del nombre para aumentar las opciones.",
                 "Considere alternativas si el nombre ya está registrado: prepare una lista de nombres alternativos aceptables.",
               ],
-              caveats: [
+              advertencias: [
                 "El nombre debe ser único y no puede generar confusión con otras empresas registradas para evitar problemas legales.",
               ],
             },
@@ -1592,7 +1592,7 @@ export default {
                 "Proporcione al abogado la información necesaria para redactar el estatuto: detalles sobre el objeto social, capital, administración, etc.",
                 "Revise el borrador del estatuto y realice las modificaciones necesarias: asegúrese de que todos los detalles sean correctos.",
               ],
-              caveats: [
+              advertencias: [
                 "Aunque no siempre es obligatorio, se recomienda la asistencia de un abogado para asegurar el cumplimiento legal y evitar errores.",
               ],
             },
@@ -1603,7 +1603,7 @@ export default {
                 "Establecer el capital social y su forma de pago: especifique el monto y cómo se aportará (efectivo, bienes, etc.).",
                 "Detallar la administración y representación legal de la empresa: indique cómo se tomarán las decisiones y quién será el representante legal (Artículo 5 del Código de Comercio).",
               ],
-              caveats: [
+              advertencias: [
                 "El estatuto debe cumplir con las leyes y regulaciones vigentes para E.I.R.L. para ser válido legalmente.",
               ],
             },
@@ -1654,7 +1654,7 @@ export default {
                 "Adjunte la escritura pública y otros documentos requeridos: asegúrese de que las copias sean legibles y estén certificadas si es necesario.",
                 "Pague las tasas de inscripción: conserve el recibo de pago como comprobante.",
               ],
-              caveats: [
+              advertencias: [
                 "Asegúrese de que toda la documentación esté completa para evitar retrasos en el proceso de inscripción.",
               ],
             },
@@ -1687,7 +1687,7 @@ export default {
                 "Adjunte los documentos requeridos: verifique si necesitan ser presentados en original o copia certificada.",
                 "Pague cualquier tasa asociada al registro, si aplica: conserve el comprobante de pago.",
               ],
-              caveats: [
+              advertencias: [
                 "El NIT/RUT es esencial para las operaciones comerciales y tributarias de la empresa; sin él, no podrá facturar legalmente.",
               ],
             },
@@ -1718,7 +1718,7 @@ export default {
                 "Complete el formulario de inscripción para el empleador y los trabajadores, si aplica: incluso si no tiene empleados actualmente.",
                 "Proporcione la información y documentos requeridos: asegúrese de que estén actualizados y en buen estado.",
               ],
-              caveats: [
+              advertencias: [
                 "Incluso si no tiene empleados, puede ser necesario registrarse para futuras contrataciones y para cotizar como trabajador independiente.",
               ],
             },
@@ -1776,7 +1776,7 @@ export default {
                 "Pague los impuestos correspondientes a tiempo: puede hacerlo en línea o en entidades bancarias autorizadas.",
                 "Utilice el NIT/RUT para todas las gestiones tributarias: asegúrese de que esté siempre activo y sin problemas.",
               ],
-              caveats: [
+              advertencias: [
                 "El incumplimiento de obligaciones fiscales puede resultar en multas, sanciones y problemas legales que afecten su negocio.",
               ],
             },
@@ -1794,7 +1794,7 @@ export default {
                 "Verifique las fechas de vencimiento de permisos o licencias: anótelas en un calendario o sistema de recordatorios.",
                 "Realice las renovaciones oportunamente para evitar sanciones: algunos trámites pueden iniciarse antes del vencimiento.",
               ],
-              caveats: [
+              advertencias: [
                 "No renovar a tiempo puede llevar a la suspensión de actividades y afectará la reputación de su empresa.",
               ],
             },
@@ -1820,7 +1820,7 @@ export default {
                 "Realice una búsqueda para asegurarse de que el nombre deseado no esté ya registrado por otra entidad.",
                 "Considere varias opciones de nombre en caso de que el primero no esté disponible.",
               ],
-              caveats: [
+              advertencias: [
                 "El nombre elegido no debe ser idéntico o similar a otro ya registrado para evitar conflictos legales (Artículo 1196, Código Civil).",
               ],
             },
@@ -1831,7 +1831,7 @@ export default {
                 "Pague la tarifa correspondiente para la reserva del nombre.",
                 "Obtenga el certificado de reserva de nombre, que tendrá una vigencia limitada.",
               ],
-              caveats: [
+              advertencias: [
                 "La reserva del nombre suele tener una validez temporal; es importante continuar con los trámites dentro de ese periodo.",
               ],
             },
@@ -1850,7 +1850,7 @@ export default {
                 "Programe una reunión para discutir los términos y condiciones del contrato social.",
                 "Proporcione al abogado la información necesaria sobre los socios y la sociedad.",
               ],
-              caveats: [
+              advertencias: [
                 "Un abogado especializado garantizará que el contrato cumpla con todas las disposiciones legales.",
               ],
             },
@@ -1863,7 +1863,7 @@ export default {
                 "Definir la distribución de utilidades y pérdidas entre los socios (Artículo 1196, Código Civil).",
                 "Incluir cláusulas sobre la disolución y liquidación de la sociedad (Artículo 1196, Código Civil).",
               ],
-              caveats: [
+              advertencias: [
                 "Es fundamental que todas las cláusulas sean claras para evitar malentendidos futuros entre los socios.",
               ],
             },
@@ -1875,7 +1875,7 @@ export default {
                 "Firmar el contrato social en presencia del notario, quien dará fe de las firmas.",
                 "Solicitar copias certificadas del contrato para cada socio y para trámites posteriores.",
               ],
-              caveats: [
+              advertencias: [
                 "La protocolización del contrato ante notario es necesaria para otorgarle validez legal (Artículo 1196, Código Civil).",
               ],
             },
@@ -1898,7 +1898,7 @@ export default {
                 "Completar la solicitud de inscripción proporcionada por el Registro Público.",
                 "Reunir los comprobantes de pago de las tasas o derechos correspondientes.",
               ],
-              caveats: [
+              advertencias: [
                 "Verificar que toda la documentación esté completa y correctamente elaborada para evitar rechazos o retrasos.",
               ],
             },
@@ -1909,7 +1909,7 @@ export default {
                 "Presentar la solicitud y entregar los documentos al registrador.",
                 "Recibir el acuse de recibo o comprobante de trámite.",
               ],
-              caveats: [
+              advertencias: [
                 "Los tiempos de registro pueden variar; es recomendable consultar los plazos estimados.",
               ],
             },
@@ -1919,7 +1919,7 @@ export default {
                 "Una vez aprobada la inscripción, obtener el número de folio mercantil asignado a la sociedad.",
                 "Solicitar una certificación del registro si es necesario para trámites posteriores.",
               ],
-              caveats: [
+              advertencias: [
                 "El folio mercantil es esencial para identificar legalmente a la sociedad en operaciones futuras.",
               ],
             },
@@ -1943,7 +1943,7 @@ export default {
                 "Completar el formulario de inscripción al RFC con los datos de la sociedad.",
                 "Reunir los documentos requeridos, incluyendo el contrato social y comprobantes de domicilio.",
               ],
-              caveats: [
+              advertencias: [
                 "Es importante que el domicilio fiscal sea válido y esté actualizado.",
               ],
             },
@@ -1954,7 +1954,7 @@ export default {
                 "Esperar la validación de los datos y la emisión del RFC.",
                 "Imprimir o solicitar la constancia de inscripción al RFC.",
               ],
-              caveats: [
+              advertencias: [
                 "El RFC es indispensable para facturar y cumplir con obligaciones fiscales.",
               ],
             },
@@ -1977,7 +1977,7 @@ export default {
                 "Investigar y comparar las ofertas de distintos bancos para cuentas empresariales.",
                 "Considerar factores como comisiones, servicios adicionales y requisitos de saldo mínimo.",
               ],
-              caveats: [
+              advertencias: [
                 "Elegir un banco que se ajuste a las necesidades financieras de la sociedad.",
               ],
             },
@@ -1996,7 +1996,7 @@ export default {
                 "Proporcionar información sobre la actividad y operaciones de la sociedad.",
                 "Depositar el monto mínimo de apertura, si se requiere.",
               ],
-              caveats: [
+              advertencias: [
                 "Leer y entender todos los términos y condiciones antes de firmar.",
               ],
             },
@@ -2018,7 +2018,7 @@ export default {
                 "Determinar si la actividad de la sociedad requiere permisos especiales.",
                 "Consultar con autoridades municipales, estatales o federales según corresponda.",
               ],
-              caveats: [
+              advertencias: [
                 "Operar sin los permisos adecuados puede resultar en sanciones o clausuras.",
               ],
             },
@@ -2029,7 +2029,7 @@ export default {
                 "Completar y presentar las solicitudes correspondientes.",
                 "Pagar las tarifas o derechos asociados a cada permiso.",
               ],
-              caveats: [
+              advertencias: [
                 "Algunos permisos pueden tardar en emitirse; es recomendable iniciar los trámites con anticipación.",
               ],
             },
@@ -2039,7 +2039,7 @@ export default {
                 "Facilitar las inspecciones que puedan requerir las autoridades.",
                 "Implementar medidas correctivas si se señalan observaciones.",
               ],
-              caveats: [
+              advertencias: [
                 "El incumplimiento de requisitos puede impedir la obtención de los permisos.",
               ],
             },
@@ -2063,7 +2063,7 @@ export default {
                 "Completar el formato de inscripción patronal con los datos de la sociedad.",
                 "Presentar los documentos requeridos.",
               ],
-              caveats: [
+              advertencias: [
                 "La inscripción es obligatoria si la sociedad cuenta con empleados.",
               ],
             },
@@ -2074,7 +2074,7 @@ export default {
                 "Dar de alta a cada empleado en el sistema del IMSS.",
                 "Calcular y pagar las cuotas obrero-patronales mensualmente.",
               ],
-              caveats: [
+              advertencias: [
                 "El incumplimiento en el pago de cuotas puede generar recargos y sanciones.",
               ],
             },
@@ -2097,7 +2097,7 @@ export default {
                 "Elaborar y presentar las declaraciones mensuales, trimestrales o anuales según corresponda.",
                 "Pagar oportunamente los impuestos determinados.",
               ],
-              caveats: [
+              advertencias: [
                 "Las omisiones o retrasos pueden generar multas y recargos.",
               ],
             },
@@ -2107,7 +2107,7 @@ export default {
                 "Mantener al día el libro de actas de asambleas y decisiones de socios.",
                 "Registrar los cambios en la estructura de la sociedad o en las aportaciones de los socios.",
               ],
-              caveats: [
+              advertencias: [
                 "Los libros corporativos son documentos legales que pueden ser requeridos en auditorías o litigios.",
               ],
             },
@@ -2118,7 +2118,7 @@ export default {
                 "Iniciar los trámites de renovación con anticipación.",
                 "Cumplir con nuevos requisitos que puedan establecer las autoridades.",
               ],
-              caveats: [
+              advertencias: [
                 "La operación sin permisos vigentes puede resultar en sanciones.",
               ],
             },
@@ -2129,7 +2129,7 @@ export default {
                 "Respetar los derechos laborales y las condiciones establecidas en los contratos.",
                 "Llevar registros de asistencia, vacaciones y otros aspectos laborales.",
               ],
-              caveats: [
+              advertencias: [
                 "El incumplimiento de obligaciones laborales puede derivar en demandas o sanciones.",
               ],
             },
@@ -2158,7 +2158,7 @@ export default {
                 "Solicitar al Registro Mercantil o equivalente en el país de origen el certificado de existencia legal.",
                 "Obtener copias certificadas de los estatutos y el acta donde se acuerda la apertura de la sucursal en Costa Rica.",
               ],
-              caveats: [
+              advertencias: [
                 "Los documentos deben ser recientes, generalmente con una antigüedad no mayor a tres meses.",
               ],
             },
@@ -2168,7 +2168,7 @@ export default {
                 "Si el país de origen es miembro del Convenio de La Haya, apostillar los documentos.",
                 "Si no, legalizar los documentos en el consulado de Costa Rica en el país de origen y luego en el Ministerio de Relaciones Exteriores en Costa Rica.",
               ],
-              caveats: [
+              advertencias: [
                 "Los documentos deben estar apostillados o legalizados para tener validez legal en Costa Rica.",
               ],
             },
@@ -2178,7 +2178,7 @@ export default {
                 "Contratar a un traductor oficial en Costa Rica para traducir los documentos al español.",
                 "Asegurarse de que el traductor esté autorizado por el Ministerio de Relaciones Exteriores de Costa Rica.",
               ],
-              caveats: [
+              advertencias: [
                 "La traducción oficial es necesaria para todos los documentos que no estén en español.",
               ],
             },
@@ -2199,7 +2199,7 @@ export default {
                 "La sociedad matriz debe otorgar un poder especial al representante legal en Costa Rica.",
                 "El poder debe especificar las facultades y responsabilidades del representante.",
               ],
-              caveats: [
+              advertencias: [
                 "El poder debe ser amplio para permitir al representante cumplir con todas las obligaciones legales.",
               ],
             },
@@ -2209,7 +2209,7 @@ export default {
                 "Apostillar o legalizar el poder de representación, siguiendo los mismos pasos que con los demás documentos.",
                 "Traducir oficialmente el poder al español si está en otro idioma.",
               ],
-              caveats: [
+              advertencias: [
                 "El poder debe cumplir con los requisitos de legalización y traducción para ser válido en Costa Rica.",
               ],
             },
@@ -2219,7 +2219,7 @@ export default {
                 "El representante legal debe tener cédula de identidad costarricense o DIMEX si es extranjero residente.",
                 "Proporcionar copias certificadas de la identificación.",
               ],
-              caveats: [
+              advertencias: [
                 "El representante legal debe estar legalmente autorizado para residir y trabajar en Costa Rica.",
               ],
             },
@@ -2240,7 +2240,7 @@ export default {
                 "Seleccionar un notario con experiencia en derecho corporativo internacional.",
                 "Proporcionar al notario todos los documentos legalizados y traducidos.",
               ],
-              caveats: [
+              advertencias: [
                 "Es obligatorio que la escritura pública sea otorgada ante notario en Costa Rica.",
               ],
             },
@@ -2250,7 +2250,7 @@ export default {
                 "El notario redactará la escritura pública de constitución de la sucursal.",
                 "El representante legal firmará la escritura ante el notario.",
               ],
-              caveats: [
+              advertencias: [
                 "Verificar que todos los datos estén correctos antes de firmar la escritura.",
               ],
             },
@@ -2272,7 +2272,7 @@ export default {
                 "El notario o el representante legal presentarán la escritura de constitución en el Registro Nacional.",
                 "Completar y presentar el formulario de inscripción correspondiente.",
               ],
-              caveats: [
+              advertencias: [
                 "El registro es esencial para que la sucursal tenga personalidad jurídica en Costa Rica.",
               ],
             },
@@ -2282,7 +2282,7 @@ export default {
                 "Pagar los derechos de registro y timbres fiscales requeridos.",
                 "Conservar los comprobantes de pago.",
               ],
-              caveats: [
+              advertencias: [
                 "Los pagos deben realizarse puntualmente para evitar retrasos en el registro.",
               ],
             },
@@ -2311,7 +2311,7 @@ export default {
                 "Acceder al portal de Administración Tributaria Virtual (ATV).",
                 "Completar el formulario con los datos de la sucursal y el representante legal.",
               ],
-              caveats: [
+              advertencias: [
                 "Es importante que la información proporcionada sea precisa y completa.",
               ],
             },
@@ -2321,7 +2321,7 @@ export default {
                 "Adjuntar los documentos requeridos, incluyendo la cédula jurídica y la identificación del representante legal.",
                 "Presentar el formulario y documentos en la oficina tributaria correspondiente o en línea si es posible.",
               ],
-              caveats: [
+              advertencias: [
                 "Sin el NIT, la sucursal no puede operar legalmente ni cumplir con sus obligaciones tributarias.",
               ],
             },
@@ -2350,7 +2350,7 @@ export default {
                 "Presentar el formulario de inscripción en la oficina de la CCSS correspondiente.",
                 "Proporcionar la información requerida sobre la sucursal y el personal empleado.",
               ],
-              caveats: [
+              advertencias: [
                 "Es obligatorio para empleadores inscribir a sus trabajadores en la CCSS.",
               ],
             },
@@ -2379,7 +2379,7 @@ export default {
                 "Investigar opciones bancarias y elegir la que mejor se adapte a las necesidades de la sucursal.",
                 "Contactar al banco para conocer los requisitos específicos.",
               ],
-              caveats: [
+              advertencias: [
                 "Algunos bancos pueden tener políticas especiales para sucursales de sociedades extranjeras.",
               ],
             },
@@ -2389,7 +2389,7 @@ export default {
                 "Proporcionar al banco todos los documentos solicitados.",
                 "Completar los formularios de apertura de cuenta.",
               ],
-              caveats: [
+              advertencias: [
                 "El proceso puede tomar más tiempo que para personas físicas o sociedades locales.",
               ],
             },
@@ -2411,7 +2411,7 @@ export default {
                 "Dirigirse a la municipalidad donde operará la sucursal.",
                 "Presentar los documentos requeridos y completar los formularios.",
               ],
-              caveats: ["Los requisitos pueden variar según la municipalidad."],
+              advertencias: ["Los requisitos pueden variar según la municipalidad."],
             },
             {
               subpaso: "Obtener permiso sanitario",
@@ -2419,7 +2419,7 @@ export default {
                 "Solicitar el permiso al Ministerio de Salud si la actividad lo requiere.",
                 "Cumplir con las inspecciones y requisitos establecidos.",
               ],
-              caveats: [
+              advertencias: [
                 "Es esencial para actividades que involucren alimentos, salud, etc.",
               ],
             },
@@ -2448,7 +2448,7 @@ export default {
                 "Realizar declaraciones de impuestos mensuales y anuales según corresponda.",
                 "Utilizar el NIT para ingresar al sistema de ATV.",
               ],
-              caveats: [
+              advertencias: [
                 "El incumplimiento puede resultar en multas y sanciones legales.",
               ],
             },
@@ -2472,7 +2472,7 @@ export default {
                 "Contratar a un contador público autorizado para preparar estados financieros.",
                 "Presentar los informes requeridos al Ministerio de Hacienda y otras autoridades.",
               ],
-              caveats: [
+              advertencias: [
                 "La transparencia financiera es crucial para cumplir con regulaciones y mantener la confianza de las autoridades.",
               ],
             },
@@ -2498,7 +2498,7 @@ export default {
                 "Asegúrese de que el nombre deseado no esté registrado por otra entidad: intente varias alternativas si el nombre está tomado.",
                 "Obtenga la certificación de disponibilidad de nombre para respaldar el proceso de registro.",
               ],
-              caveats: [
+              advertencias: [
                 "El nombre de la asociación no debe ser igual o similar a uno ya registrado, para evitar problemas legales o de confusión en el mercado (Artículo 2 de la Constitución de Asociación Deportiva).",
               ],
             },
@@ -2523,7 +2523,7 @@ export default {
                 "Establezca los objetivos principales de la asociación, asegurándose de que sean congruentes con el propósito deportivo y no lucrativo.",
                 "Los objetivos deben enfatizar la promoción y desarrollo del deporte entre sus miembros y la comunidad (Artículo 3 de la Constitución de Asociación Deportiva).",
               ],
-              caveats: [
+              advertencias: [
                 "Los objetivos de la asociación deben estar alineados con su naturaleza no lucrativa, para evitar conflictos legales o fiscales.",
               ],
             },
@@ -2552,7 +2552,7 @@ export default {
                 "Busque un abogado especializado en derecho corporativo y asociaciones sin fines de lucro.",
                 "Programe una reunión para discutir los detalles de la asociación, incluyendo sus objetivos, los miembros fundadores y sus roles.",
               ],
-              caveats: [
+              advertencias: [
                 "La asesoría legal es esencial para garantizar que el acta constitutiva cumpla con todas las regulaciones aplicables (Artículo 2 de la Constitución de Asociación Deportiva).",
               ],
             },
@@ -2562,7 +2562,7 @@ export default {
                 "Identifique a los diferentes tipos de miembros de la asociación, incluyendo miembros fundadores, activos y honorarios (Artículo 6 de la Constitución de Asociación Deportiva).",
                 "Especifique los derechos y obligaciones de cada tipo de miembro, como el derecho a voto y la participación en actividades.",
               ],
-              caveats: [
+              advertencias: [
                 "La clasificación de los miembros debe ser clara para evitar conflictos en la gestión de la asociación.",
               ],
             },
@@ -2573,7 +2573,7 @@ export default {
                 "Asegúrese de que todos los miembros fundadores presenten sus identificaciones vigentes y estén presentes para la firma.",
                 "El notario dará fe de la autenticidad de las firmas y la validez del documento: solicite copias certificadas para cada miembro.",
               ],
-              caveats: [
+              advertencias: [
                 "La firma ante notario es obligatoria para que el acta tenga validez legal (Artículo 7 de la Constitución de Asociación Deportiva).",
               ],
             },
@@ -2596,7 +2596,7 @@ export default {
                 "Complete toda la información requerida sobre la asociación y los miembros fundadores.",
                 "Adjunte los documentos necesarios, incluyendo el acta autenticada y la certificación de nombre.",
               ],
-              caveats: [
+              advertencias: [
                 "La omisión de información o documentos puede retrasar el proceso de inscripción.",
               ],
             },
@@ -2607,7 +2607,7 @@ export default {
                 "Pague las tarifas correspondientes al registro de la asociación y guarde el comprobante de pago.",
                 "Espere la revisión y aprobación de la documentación: el Registro Nacional notificará si hay observaciones o si se requiere información adicional.",
               ],
-              caveats: [
+              advertencias: [
                 "El registro no será efectivo hasta que se completen todos los requisitos y se realicen los pagos correspondientes.",
               ],
             },
@@ -2638,7 +2638,7 @@ export default {
                 "Adjunte los documentos requeridos: personería jurídica y cédula del representante legal.",
                 "Espere la confirmación del registro y obtenga el NIT para trámites tributarios.",
               ],
-              caveats: [
+              advertencias: [
                 "El NIT es indispensable para cualquier actividad tributaria de la asociación.",
               ],
             },
@@ -2669,7 +2669,7 @@ export default {
                 "Presente todos los documentos requeridos: acta constitutiva, personería jurídica y cédula del representante legal.",
                 "Complete los formularios proporcionados por el banco y realice el depósito inicial si es necesario.",
               ],
-              caveats: [
+              advertencias: [
                 "Asegúrese de entender las condiciones y obligaciones asociadas con la cuenta bancaria de la asociación.",
               ],
             },
@@ -2692,7 +2692,7 @@ export default {
                 "Adjunte los documentos requeridos: planos del local, certificaciones, etc.",
                 "Presente la solicitud en la oficina regional correspondiente y pague las tasas aplicables.",
               ],
-              caveats: [
+              advertencias: [
                 "El permiso es obligatorio para actividades que puedan afectar la salud pública.",
               ],
             },
@@ -2703,7 +2703,7 @@ export default {
                 "Complete el formulario de solicitud y adjunte los documentos necesarios: permiso del Ministerio de Salud, personería jurídica, etc.",
                 "Pague las tarifas correspondientes y espere la aprobación de la patente.",
               ],
-              caveats: [
+              advertencias: [
                 "Operar sin patente municipal puede resultar en sanciones y cierre del establecimiento.",
               ],
             },
@@ -2714,7 +2714,7 @@ export default {
                 "Complete el formulario de inscripción y presente la documentación requerida: personería jurídica, cédulas de los miembros del consejo directivo, etc.",
                 "Obtenga el número de patrono y mantenga al día los pagos de cargas sociales.",
               ],
-              caveats: [
+              advertencias: [
                 "El incumplimiento con la CCSS puede generar multas y afectar la reputación de la asociación.",
               ],
             },
@@ -2752,7 +2752,7 @@ export default {
                 "Visite la municipalidad y el Ministerio de Salud para presentar los documentos requeridos para la renovación: incluya una copia del permiso anterior y un comprobante de pago de impuestos municipales.",
                 "Pague las tarifas correspondientes y espere la aprobación de la renovación: asegúrese de guardar los comprobantes de pago y las nuevas licencias.",
               ],
-              caveats: [
+              advertencias: [
                 "Si no se renuevan los permisos a tiempo, la empresa podría enfrentar sanciones o incluso el cierre temporal.",
               ],
             },
