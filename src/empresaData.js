@@ -2483,7 +2483,7 @@ export default {
     {
       tipo: "Asociación Deportiva",
       descripcion:
-        "Una Asociación Deportiva es una entidad de carácter no lucrativo enfocada en actividades deportivas, cuya finalidad es promover, organizar y desarrollar actividades relacionadas con el deporte. Las asociaciones deportivas están reguladas por leyes específicas y deben cumplir con ciertos requisitos para su constitución y operación. Están constituidas por miembros que buscan objetivos comunes relacionados con la práctica y promoción del deporte (Artículo 3 de la Constitución de Asociación Deportiva)【33†source】.",
+        "Una Asociación Deportiva es una entidad de carácter no lucrativo enfocada en actividades deportivas, cuya finalidad es promover, organizar y desarrollar actividades relacionadas con el deporte. Las asociaciones deportivas están reguladas por leyes específicas y deben cumplir con ciertos requisitos para su constitución y operación. Están constituidas por miembros que buscan objetivos comunes relacionados con la práctica y promoción del deporte (Artículo 3 de la Constitución de Asociación Deportiva).",
       pasos: [
         {
           paso: "Definir el Nombre y Domicilio de la Asociación",
@@ -2499,13 +2499,13 @@ export default {
                 "Obtenga la certificación de disponibilidad de nombre para respaldar el proceso de registro.",
               ],
               caveats: [
-                "El nombre de la asociación no debe ser igual o similar a uno ya registrado, para evitar problemas legales o de confusión en el mercado (Artículo 2 de la Constitución de Asociación Deportiva)【33†source】.",
+                "El nombre de la asociación no debe ser igual o similar a uno ya registrado, para evitar problemas legales o de confusión en el mercado (Artículo 2 de la Constitución de Asociación Deportiva).",
               ],
             },
             {
               subpaso: "Determinar el domicilio de la asociación",
               detalle: [
-                "Establezca la dirección oficial de la asociación dentro de Costa Rica, incluyendo la provincia, el cantón y el distrito (Artículo 2 de la Constitución de Asociación Deportiva)【33†source】.",
+                "Establezca la dirección oficial de la asociación dentro de Costa Rica, incluyendo la provincia, el cantón y el distrito (Artículo 2 de la Constitución de Asociación Deportiva).",
                 "Esta dirección será utilizada para recibir notificaciones legales y administrativas.",
               ],
             },
@@ -2521,7 +2521,7 @@ export default {
               subpaso: "Definir los objetivos de la asociación",
               detalle: [
                 "Establezca los objetivos principales de la asociación, asegurándose de que sean congruentes con el propósito deportivo y no lucrativo.",
-                "Los objetivos deben enfatizar la promoción y desarrollo del deporte entre sus miembros y la comunidad (Artículo 3 de la Constitución de Asociación Deportiva)【33†source】.",
+                "Los objetivos deben enfatizar la promoción y desarrollo del deporte entre sus miembros y la comunidad (Artículo 3 de la Constitución de Asociación Deportiva).",
               ],
               caveats: [
                 "Los objetivos de la asociación deben estar alineados con su naturaleza no lucrativa, para evitar conflictos legales o fiscales.",
@@ -2530,7 +2530,7 @@ export default {
             {
               subpaso: "Determinar las actividades permitidas",
               detalle: [
-                "Defina las actividades que llevará a cabo la asociación para cumplir sus objetivos, como organización de eventos deportivos, recaudación de fondos y adquisición de equipos (Artículo 4 de la Constitución de Asociación Deportiva)【33†source】.",
+                "Defina las actividades que llevará a cabo la asociación para cumplir sus objetivos, como organización de eventos deportivos, recaudación de fondos y adquisición de equipos (Artículo 4 de la Constitución de Asociación Deportiva).",
                 "Las actividades deben ser compatibles con la naturaleza de la asociación y contribuir al cumplimiento de sus fines.",
               ],
             },
@@ -2553,13 +2553,13 @@ export default {
                 "Programe una reunión para discutir los detalles de la asociación, incluyendo sus objetivos, los miembros fundadores y sus roles.",
               ],
               caveats: [
-                "La asesoría legal es esencial para garantizar que el acta constitutiva cumpla con todas las regulaciones aplicables (Artículo 2 de la Constitución de Asociación Deportiva)【33†source】.",
+                "La asesoría legal es esencial para garantizar que el acta constitutiva cumpla con todas las regulaciones aplicables (Artículo 2 de la Constitución de Asociación Deportiva).",
               ],
             },
             {
               subpaso: "Incluir la clasificación de los miembros",
               detalle: [
-                "Identifique a los diferentes tipos de miembros de la asociación, incluyendo miembros fundadores, activos y honorarios (Artículo 6 de la Constitución de Asociación Deportiva)【33†source】.",
+                "Identifique a los diferentes tipos de miembros de la asociación, incluyendo miembros fundadores, activos y honorarios (Artículo 6 de la Constitución de Asociación Deportiva).",
                 "Especifique los derechos y obligaciones de cada tipo de miembro, como el derecho a voto y la participación en actividades.",
               ],
               caveats: [
@@ -2574,7 +2574,7 @@ export default {
                 "El notario dará fe de la autenticidad de las firmas y la validez del documento: solicite copias certificadas para cada miembro.",
               ],
               caveats: [
-                "La firma ante notario es obligatoria para que el acta tenga validez legal (Artículo 7 de la Constitución de Asociación Deportiva)【33†source】.",
+                "La firma ante notario es obligatoria para que el acta tenga validez legal (Artículo 7 de la Constitución de Asociación Deportiva).",
               ],
             },
           ],
